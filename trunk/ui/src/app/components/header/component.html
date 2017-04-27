@@ -1,0 +1,14 @@
+<header class="fix-sidebar">
+    <nav class="navbar navbar-light  bg-primary d-flex align-items-center justify-content-center flex-wrap">
+        <div class="container align-items-center">
+            <a class="pull-left text-white" (click)="toggleSidebar()"><i class="fa fa-bars fa-2x"></i></a>
+            <a class="navbar-brand" ng-click="$ctrl.text()" ng-bind="::$ctrl.appName | lowercase">
+            </a>
+            <span class="pull-right text-white">
+            <a class="text-white" (click)="logout()">Logout</a>
+            </span>
+        </div>
+        <div></div>
+    </nav>
+    <sidebar></sidebar>
+</header>

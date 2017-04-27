@@ -1,0 +1,181 @@
+country_iso2,country,average_annual_gdp,total_exposure_value,preparedness_index,coverage_gap,top_threat_1,exposure_value_1,top_threat_2,exposure_value_2,top_threat_3,exposure_value_3,top_threat_4,exposure_value_4,top_threat_5,exposure_value_5
+,World,72636.22,34087.95,2.42,17589.38454,Market Crash,5794.95,Tropical Storm,4431.43,Earthquake,3408.80,Riverine Flood,2045.28,Terrorism,2045.28
+AF,Afghanistan,19.33,17.78,2.45,9.07,Landslide,2.84,Energy Blackouts,1.96,Explosion,1.42,Terrorism,1.07,Coastal Flood,1.07
+AL,Albania,11.40,3.65,3.45,1.13,Organised Crime,0.62,Drought,0.47,Earthquake,0.33,Landslide,0.29,Civil Disorder,0.18
+DZ,Algeria,166.84,144.11,2.35,76.38,War,25.94,Riverine Flood,17.29,Parasitic Disease,11.53,Road Accident,11.53,Convectional Storm,8.65
+AO,Angola,102.63,73.45,1.90,45.54,Market Crash,13.22,Marine Accident,8.81,Poisoning,6.61,Drought,5.88,Tsunami,2.94
+AG,Antigua and Barbuda,1.26,0.81,1.50,0.57,Explosion,0.12,Collapse,0.08,Fungal Disease,0.08,Fire,0.06,Extra Tropical Storm,0.05
+AR,Argentina,583.17,284.99,2.75,128.24,Market Crash,51.30,Poisoning,34.20,Organised Crime,25.65,Cold Wave,19.95,Prion Infectitous Disease,14.25
+AM,Armenia,10.53,1.57,1.95,0.96,Air Accident,0.28,Coastal Flood,0.16,Civil Disorder,0.13,Trade Sanctions,0.13,Cyber Attack,0.08
+AU,Australia,1339.14,163.31,4.65,11.43,Flash Flood,24.50,Organised Crime,19.60,Road Accident,16.33,Fungal Disease,13.06,Solar Storm,6.53
+AT,Austria,376.95,52.79,3.40,16.89,Explosion,7.39,Labour Dispute,6.33,Collapse,4.75,Solar Storm,3.17,Explosion,2.11
+AZ,Azerbaijan,53.05,11.17,4.50,1.12,Rail Accident,1.68,Property Damage,1.56,Cartel Pressure,0.89,Terrorism,0.78,Coastal Flood,0.67
+BS,Bahamas,8.85,1.67,2.45,0.85,Geomagnetic Storm,0.23,Solar Storm,0.20,Tropical Storm,0.13,Cold Wave,0.13,Terrorism,0.10
+BH,Bahrain,31.13,27.11,3.15,10.03,Poisoning,4.61,Road Accident,3.25,Marine Accident,2.71,Tsunami,2.17,Rockfall,1.36
+BD,Bangladesh,195.08,115.57,2.55,56.63,External Force,18.49,Landslide,16.18,Food Crisis,11.56,Chemical Accident,6.93,Cyber Attack,6.93
+BB,Barbados,4.39,1.55,4.50,0.15,Property Damage,0.26,Avalanche,0.20,Rockfall,0.12,Rogue Wave,0.12,Food Crisis,0.06
+BY,Belarus,54.61,34.98,2.75,15.74,Road Accident,5.60,Cyber Attack,3.50,Sovereign Failure,3.15,Plant Disease,2.10,Heat Wave,1.40
+BE,Belgium,455.09,258.42,3.05,100.78,Plant Disease,46.52,Radiation,31.01,Satellite system failure,25.84,Cartel Pressure,18.09,Rogue Wave,12.92
+BZ,Belize,1.75,1.17,1.30,0.87,External Force,0.19,Trade Sanctions,0.16,Stampede,0.11,Air Accident,0.08,Subsidence,0.05
+BJ,Benin,8.29,3.65,4.50,0.37,Gas Leak,0.66,Coastal Flood,0.37,Asset bubble,0.33,External Force,0.29,Sovereign Failure,0.15
+BT,Bhutan,2.06,1.31,0.30,1.23,Extra Tropical Storm,0.24,Road Accident,0.13,External Force,0.13,Collapse,0.08,Terrorism,0.05
+BO,Bolivia,33.00,31.32,4.50,3.13,Property Damage,5.64,Solar Storm,3.45,Geomagnetic Storm,2.82,Financial Irregularity,1.88,Labour Dispute,1.25
+BA,Bosnia and Herzegovina,16.19,10.97,2.85,4.72,Rockfall,1.65,Forest Fire,1.21,Trade Sanctions,0.99,Separatism,0.77,Subsidence,0.66
+BW,Botswana,14.39,1.22,0.45,1.11,Food Crisis,0.17,Riverine Flood,0.16,Chemical Accident,0.10,Coastal Flood,0.10,Animal Disease,0.07
+BR,Brazil,1774.72,1191.61,2.30,643.47,Meteorite Impact,190.66,Avalanche,142.99,Earthquake,107.25,Prion Infectitous Disease,95.33,Heat Wave,71.50
+BN,Brunei Darussalam,12.93,3.68,2.90,1.54,Fire,0.51,Cold Wave,0.40,Bacterial Disease,0.33,Civil Disorder,0.22,Rogue Wave,0.22
+BG,Bulgaria,50.20,25.80,1.45,18.32,Poisoning,3.61,Water Supply Crisis,2.58,Convectional Storm,2.32,Bacterial Disease,1.81,Avalanche,1.55
+BF,Burkina Faso,10.68,3.75,3.40,1.20,Cold Wave,0.64,Fire,0.45,Tsunami,0.37,Road Accident,0.22,Trade Sanctions,0.19
+BI,Burundi,3.10,0.14,1.65,0.09,Organised Crime,0.02,Water Supply Crisis,0.01,Viral Disease,0.01,Rail Accident,0.01,Trade Sanctions,0.01
+CV,Cape Verde,1.60,0.14,4.15,0.02,Volcano,0.02,Extra Tropical Storm,0.02,Collapse,0.01,Geomagnetic Storm,0.01,Meteorite Impact,0.01
+KH,Cambodia,18.05,10.52,1.55,7.26,Convectional Storm,1.58,Labour Dispute,1.37,Marine Accident,1.05,Financial Irregularity,0.74,Cartel Pressure,0.53
+CM,Cameroon,28.42,22.14,2.15,12.62,Earthquake,3.10,Energy Blackouts,2.44,Cartel Pressure,1.99,Cold Wave,1.55,Riverine Flood,1.33
+CA,Canada,1550.54,1144.40,4.75,57.22,Stampede,160.22,Tsunami,137.33,Animal Disease,114.44,Migration,68.66,Heat Wave,68.66
+CF,Central African Republic,1.58,1.51,0.60,1.33,Tropical Storm,0.23,Prion Infectitous Disease,0.18,Forest Fire,0.12,Satellite system failure,0.12,Tropical Storm,0.09
+TD,Chad,10.89,9.90,1.95,6.04,Parasitic Disease,1.68,Extra Tropical Storm,1.09,Convectional Storm,0.99,Marine Accident,0.79,Rail Accident,0.59
+CL,Chile,240.80,9.72,2.05,5.73,Earthquake,1.75,Geomagnetic Storm,0.97,Financial Irregularity,0.97,Flash Flood,0.58,Volcano,0.58
+CN,China,11007.72,7356.56,1.75,4781.76,Bacterial Disease,1177.05,Sovereign Failure,809.22,Flash Flood,662.09,Seiche,441.39,External Force,294.26
+CO,Colombia,292.08,161.55,4.65,11.31,Meteorite Impact,25.85,Rockfall,16.16,Plant Disease,16.16,Financial Irregularity,11.31,Avalanche,6.46
+KM,Comoros,0.57,0.37,1.25,0.28,Subsidence,0.06,Animal Disease,0.05,Water Supply Crisis,0.03,Food Crisis,0.03,Separatism,0.02
+CG,Congo,8.55,4.05,1.30,2.99,Collapse,0.57,Trade Sanctions,0.44,Forest Fire,0.40,Meteorite Impact,0.24,Financial Irregularity,0.16
+CR,Costa Rica,54.14,15.33,1.30,11.35,Heat Wave,2.76,Subsidence,1.99,Chemical Accident,1.38,Separatism,1.23,Volcano,0.77
+CI,Ivory Coast,31.76,29.91,0.60,26.32,Financial Irregularity,4.19,Geomagnetic Storm,4.19,Seiche,2.99,Land Fire,2.39,Air Accident,1.79
+HR,Croatia,48.73,8.45,0.75,7.18,Sovereign Failure,1.35,Extra Tropical Storm,0.93,Flash Flood,0.84,Viral Disease,0.68,Coastal Flood,0.51
+CY,Cyprus,19.56,15.00,4.35,1.95,Explosion,2.40,Cartel Pressure,1.65,Separatism,1.35,Meteorite Impact,1.20,Asset bubble,0.90
+CZ,Czech Republic,185.16,114.78,0.20,110.19,Chemical Accident,19.51,Solar Storm,14.92,Earthquake,11.48,Satellite system failure,6.89,Fire,6.89
+DK,Denmark,295.09,214.03,1.10,166.95,Air Accident,29.96,Flash Flood,27.82,Chemical Accident,17.12,Fire,17.12,Insect Infestation,10.70
+DJ,Djibouti,1.73,0.23,1.65,0.15,Labour Dispute,0.03,Extra Tropical Storm,0.03,Collapse,0.02,Solar Storm,0.02,Plant Disease,0.01
+DM,Dominica,0.52,0.46,3.95,0.10,Financial Irregularity,0.08,Prion Infectitous Disease,0.06,Animal Disease,0.04,Bacterial Disease,0.04,Rockfall,0.03
+DO,Dominican Republic,68.10,14.52,1.05,11.47,Explosion,2.03,Plant Disease,1.89,Forest Fire,1.31,Bacterial Disease,0.87,Land Fire,0.73
+EC,Ecuador,100.18,78.01,2.75,35.10,Rockfall,13.26,Heat Wave,8.58,Tropical Storm,7.80,Solar Storm,6.24,Radiation,4.68
+EG,Egypt,330.78,184.78,2.05,109.02,Road Accident,29.56,Sovereign Failure,18.48,Parasitic Disease,18.48,Civil Disorder,12.93,Solar Storm,11.09
+SV,El Salvador,25.85,2.81,1.35,2.05,Financial Irregularity,0.39,Water Supply Crisis,0.34,Rogue Wave,0.28,Geomagnetic Storm,0.17,Prion Infectitous Disease,0.11
+GQ,Equatorial Guinea,12.20,7.01,1.40,5.04,Extra Tropical Storm,0.98,Financial Irregularity,0.98,Earthquake,0.63,Chemical Accident,0.49,Stampede,0.42
+EE,Estonia,22.46,6.10,1.25,4.57,Seiche,1.04,Avalanche,0.85,Volcano,0.49,Marine Accident,0.43,Data & Privacy Breach,0.30
+ET,Ethiopia,61.54,21.95,1.75,14.27,Tsunami,3.07,Collapse,3.07,Rogue Wave,1.98,Rail Accident,1.32,Fungal Disease,0.88
+FJ,Fiji,4.43,2.60,4.10,0.47,Energy Blackouts,0.36,Earthquake,0.29,Road Accident,0.23,Cartel Pressure,0.16,Migration,0.10
+FI,Finland,231.95,6.10,1.15,4.69,Meteorite Impact,1.04,Animal Disease,0.85,Cyber Attack,0.49,Prion Infectitous Disease,0.49,Cartel Pressure,0.30
+FR,France,2418.84,1287.77,4.75,64.39,Organised Crime,218.92,Chemical Accident,128.78,Energy Blackouts,128.78,Civil Disorder,90.14,Insect Infestation,77.27
+GA,Gabon,14.26,13.53,1.90,8.39,Fungal Disease,1.89,Heat Wave,1.62,Seiche,1.08,Road Accident,0.81,Organised Crime,0.54
+GM,Gambia,0.94,0.66,3.15,0.24,Seiche,0.11,Energy Blackouts,0.09,Marine Accident,0.05,Stampede,0.05,Civil Disorder,0.04
+GE,Georgia,13.97,6.49,4.45,0.71,Drought,1.04,Flash Flood,0.71,Food Crisis,0.65,Water Supply Crisis,0.39,Subsidence,0.32
+DE,Germany,3363.45,2380.77,0.55,2118.89,Seiche,380.92,Tsunami,285.69,Sovereign Failure,214.27,Radiation,166.65,Landslide,95.23
+GH,Ghana,37.54,1.42,1.60,0.96,Riverine Flood,0.23,Terrorism,0.16,Volcano,0.13,Market Crash,0.11,Animal Disease,0.06
+GR,Greece,194.85,17.02,4.50,1.70,Plant Disease,2.55,Forest Fire,2.38,Air Accident,1.70,Stampede,1.36,Earthquake,1.02
+GD,Grenada,0.98,0.92,0.85,0.76,Seiche,0.13,Landslide,0.13,Data & Privacy Breach,0.07,Cold Wave,0.07,Property Damage,0.04
+GT,Guatemala,63.79,51.13,1.45,36.30,Rail Accident,9.20,Insect Infestation,5.11,War,4.60,Tropical Storm,3.58,Parasitic Disease,2.56
+GN,Guinea,6.70,0.09,0.30,0.08,Chemical Accident,0.01,Labour Dispute,0.01,Civil Disorder,0.01,Explosion,0.01,Earthquake,0.01
+GW,Guinea Bissau,1.06,0.01,2.30,0.01,Geomagnetic Storm,0.00,Air Accident,0.00,Migration,0.00,Air Accident,0.00,Asset bubble,0.00
+GY,Guyana,3.17,2.81,3.40,0.90,Fungal Disease,0.51,Rogue Wave,0.31,Separatism,0.22,Financial Irregularity,0.20,Earthquake,0.14
+HT,Haiti,8.77,8.71,0.55,7.75,Heat Wave,1.48,Poisoning,0.87,Subsidence,0.87,Viral Disease,0.70,Tsunami,0.52
+HN,Honduras,20.42,1.44,2.30,0.78,Plant Disease,0.24,Property Damage,0.20,Energy Blackouts,0.14,Parasitic Disease,0.10,Volcano,0.09
+HK,Hong Kong,309.23,168.56,4.50,16.86,Gas Leak,23.60,Marine Accident,16.86,Bacterial Disease,16.86,Flash Flood,10.11,Plant Disease,6.74
+HU,Hungary,121.72,18.18,0.30,17.09,Heat Wave,2.73,Convectional Storm,2.18,Riverine Flood,1.64,Separatism,1.45,Air Accident,0.91
+IS,Iceland,16.60,12.49,1.10,9.74,Geomagnetic Storm,1.87,Landslide,1.50,Geomagnetic Storm,1.12,Subsidence,0.87,Meteorite Impact,0.62
+IN,India,2095.40,1043.83,1.35,762.00,Tsunami,187.89,Property Damage,135.70,Solar Storm,104.38,External Force,73.07,War,62.63
+ID,Indonesia,861.93,551.81,3.05,215.20,Rogue Wave,99.33,Coastal Flood,55.18,War,55.18,Water Supply Crisis,33.11,Separatism,33.11
+IR,Iran,425.33,338.03,3.55,98.03,Rogue Wave,54.09,Seiche,33.80,Terrorism,33.80,Prion Infectitous Disease,20.28,Solar Storm,13.52
+IQ,Iraq,180.07,157.63,2.80,69.36,Sovereign Failure,23.64,Chemical Accident,22.07,Prion Infectitous Disease,12.61,Cyber Attack,11.03,Stampede,7.88
+IE,Ireland,283.70,227.08,3.80,54.50,Chemical Accident,34.06,Solar Storm,22.71,Cartel Pressure,20.44,Cyber Attack,13.62,Prion Infectitous Disease,11.35
+IL,Israel,299.42,206.11,2.30,111.30,Water Supply Crisis,28.86,Forest Fire,24.73,Food Crisis,16.49,Fungal Disease,16.49,Rockfall,8.24
+IT,Italy,1821.50,1426.12,3.45,442.10,Avalanche,242.44,Heat Wave,199.66,Cartel Pressure,142.61,Separatism,114.09,Flash Flood,71.31
+JM,Jamaica,14.26,12.37,1.45,8.78,Subsidence,2.10,Prion Infectitous Disease,1.36,Rail Accident,1.11,Trade Sanctions,0.99,Animal Disease,0.49
+JP,Japan,4383.08,636.97,0.50,573.28,Extra Tropical Storm,101.92,Cyber Attack,89.18,Viral Disease,50.96,Asset bubble,44.59,External Force,25.48
+JO,Jordan,37.52,20.11,3.35,6.63,Rogue Wave,3.22,Tropical Storm,2.01,Convectional Storm,1.61,Stampede,1.61,Tsunami,1.01
+KZ,Kazakhstan,184.39,72.54,3.40,23.21,Property Damage,10.16,Subsidence,10.16,Prion Infectitous Disease,6.53,Meteorite Impact,5.80,Migration,3.63
+KE,Kenya,63.40,39.58,3.45,12.27,Convectional Storm,5.94,Extra Tropical Storm,4.35,Geomagnetic Storm,3.17,Animal Disease,2.37,Cold Wave,1.98
+KI,Kiribati,0.16,0.07,4.35,0.01,Earthquake,0.01,Organised Crime,0.01,Avalanche,0.01,Civil Disorder,0.00,Trade Sanctions,0.00
+KR,Korea,1377.87,1342.02,2.35,711.27,Gas Leak,241.56,Fire,147.62,Financial Irregularity,134.20,Chemical Accident,107.36,Market Crash,67.10
+KW,Kuwait,114.04,27.64,3.70,7.19,Organised Crime,4.70,Rogue Wave,3.87,Heat Wave,2.76,Poisoning,1.66,Stampede,1.38
+KG,Kyrgyzstan,6.57,3.93,3.15,1.46,Separatism,0.63,Separatism,0.43,Plant Disease,0.39,Volcano,0.28,Animal Disease,0.24
+LA,Laos,12.37,7.67,0.95,6.22,Avalanche,1.15,War,1.07,Fungal Disease,0.61,Satellite system failure,0.61,Satellite system failure,0.31
+LV,Latvia,27.00,5.60,4.25,0.84,Asset bubble,0.84,Parasitic Disease,0.78,Poisoning,0.56,Organised Crime,0.45,Tsunami,0.34
+LB,Lebanon,47.08,7.12,4.35,0.93,Sovereign Failure,1.14,Radiation,0.78,Energy Blackouts,0.71,Terrorism,0.43,Tropical Storm,0.43
+LS,Lesotho,2.28,0.50,0.45,0.45,Insect Infestation,0.07,Radiation,0.06,Water Supply Crisis,0.05,Market Crash,0.03,Coastal Flood,0.03
+LR,Liberia,2.05,0.51,3.40,0.16,Fungal Disease,0.09,Viral Disease,0.05,Cyber Attack,0.04,Rockfall,0.04,Food Crisis,0.03
+LT,Lithuania,41.17,36.18,0.10,35.46,Rail Accident,6.15,Air Accident,5.07,Tropical Storm,3.26,Terrorism,2.89,Tsunami,1.81
+LU,Luxembourg,57.79,54.50,2.70,25.07,Convectional Storm,7.63,Rail Accident,5.45,Labour Dispute,5.45,Heat Wave,4.36,Animal Disease,2.72
+MK,Macedonia,10.09,1.95,1.30,1.45,Cartel Pressure,0.35,Landslide,0.20,Marine Accident,0.20,Migration,0.14,Bacterial Disease,0.10
+MG,Madagascar,9.74,3.28,2.80,1.44,External Force,0.59,Landslide,0.36,Labour Dispute,0.26,Bacterial Disease,0.26,Extra Tropical Storm,0.20
+MW,Malawi,6.40,5.21,3.70,1.36,Organised Crime,0.73,Rockfall,0.73,Animal Disease,0.42,Poisoning,0.42,Cold Wave,0.21
+MY,Malaysia,296.28,124.61,4.15,21.18,Trade Sanctions,21.18,Market Crash,17.44,Meteorite Impact,9.97,Energy Blackouts,8.72,Land Fire,7.48
+MV,Maldives,3.44,2.66,2.70,1.22,Bacterial Disease,0.40,Fungal Disease,0.29,Insect Infestation,0.21,Heat Wave,0.21,War,0.11
+ML,Mali,12.75,9.32,1.85,5.87,Poisoning,1.49,Asset bubble,1.02,Property Damage,0.93,Meteorite Impact,0.65,Labour Dispute,0.47
+MT,Malta,9.75,8.29,0.65,7.21,Collapse,1.49,Road Accident,1.16,Landslide,0.66,Convectional Storm,0.58,Fire,0.50
+MH,Marshall Islands,0.18,0.08,1.60,0.05,War,0.01,Separatism,0.01,Poisoning,0.01,Labour Dispute,0.01,Geomagnetic Storm,0.00
+MR,Mauritania,5.44,3.88,3.60,1.09,Avalanche,0.54,Avalanche,0.47,Bacterial Disease,0.39,War,0.31,Chemical Accident,0.19
+MU,Mauritius,11.68,8.04,4.80,0.32,Drought,1.13,Heat Wave,0.80,Organised Crime,0.72,Separatism,0.48,Organised Crime,0.40
+MX,Mexico,1143.79,64.74,3.95,13.60,War,11.65,Bacterial Disease,6.47,Animal Disease,6.47,Food Crisis,4.53,Civil Disorder,3.88
+FM,Micronesia,0.31,0.06,0.95,0.05,Riverine Flood,0.01,Cartel Pressure,0.01,Satellite system failure,0.01,Chemical Accident,0.00,Subsidence,0.00
+MD,Moldova,6.57,1.15,0.25,1.10,Asset bubble,0.18,Solar Storm,0.13,Civil Disorder,0.12,Tsunami,0.09,Food Crisis,0.06
+MN,Mongolia,11.74,5.06,4.50,0.51,Fire,0.71,External Force,0.51,Subsidence,0.41,Marine Accident,0.41,Parasitic Disease,0.20
+ME,Montenegro,3.99,3.42,2.55,1.67,Data & Privacy Breach,0.48,Road Accident,0.34,Volcano,0.27,Cyber Attack,0.27,Terrorism,0.21
+MA,Morocco,100.59,78.03,3.75,19.51,Cold Wave,13.26,Geomagnetic Storm,10.14,Coastal Flood,7.80,Chemical Accident,6.24,Avalanche,4.68
+MZ,Mozambique,14.81,9.03,0.10,8.85,External Force,1.26,Marine Accident,0.90,Parasitic Disease,0.72,Stampede,0.54,Civil Disorder,0.36
+MM,Myanmar,62.60,27.28,3.60,7.64,Road Accident,4.36,Stampede,3.27,Asset bubble,2.46,Terrorism,1.91,Rogue Wave,1.64
+NA,Namibia,11.49,8.28,4.25,1.24,Road Accident,1.32,Collapse,0.83,Animal Disease,0.83,Separatism,0.66,Meteorite Impact,0.33
+NP,Nepal,21.19,2.11,1.45,1.50,Parasitic Disease,0.38,Water Supply Crisis,0.25,Riverine Flood,0.17,Migration,0.17,Riverine Flood,0.13
+NL,Netherlands,750.28,442.05,3.10,167.98,Insect Infestation,66.31,Convectional Storm,53.05,Rail Accident,35.36,Stampede,30.94,Bacterial Disease,22.10
+NZ,New Zealand,173.75,66.17,3.65,17.87,Flash Flood,11.25,Seiche,8.60,Road Accident,5.29,Coastal Flood,3.97,War,2.65
+NI,Nicaragua,12.69,2.64,1.45,1.87,Air Accident,0.47,External Force,0.37,Separatism,0.21,Trade Sanctions,0.18,Poisoning,0.11
+NE,Niger,7.14,0.97,1.55,0.67,Sovereign Failure,0.18,Forest Fire,0.14,Extra Tropical Storm,0.08,Fungal Disease,0.07,Geomagnetic Storm,0.06
+NG,Nigeria,481.07,19.33,4.20,3.09,Air Accident,3.09,Avalanche,1.93,Volcano,1.93,Insect Infestation,1.55,Collapse,0.77
+NO,Norway,386.58,29.13,3.95,6.12,Asset bubble,4.95,Trade Sanctions,3.20,Earthquake,2.33,Market Crash,2.04,Landslide,1.17
+OM,Oman,69.83,49.16,0.60,43.26,Fire,8.36,Solar Storm,4.92,Asset bubble,4.42,Food Crisis,3.44,Plant Disease,2.95
+PK,Pakistan,271.05,60.25,3.00,24.10,Convectional Storm,10.84,Terrorism,6.02,Convectional Storm,6.02,Organised Crime,4.82,Market Crash,2.41
+PW,Palau,0.29,0.01,2.55,0.01,Stampede,0.00,Collapse,0.00,Drought,0.00,Labour Dispute,0.00,Terrorism,0.00
+PA,Panama,52.13,16.46,4.00,3.29,Market Crash,2.47,Prion Infectitous Disease,2.30,Migration,1.32,Bacterial Disease,0.99,Drought,0.66
+PG,Papua New Guinea,16.93,8.69,4.65,0.61,Rail Accident,1.56,Cyber Attack,1.22,Organised Crime,0.70,Air Accident,0.61,Rogue Wave,0.52
+PY,Paraguay,27.09,19.81,4.55,1.78,Plant Disease,2.77,Gas Leak,1.98,Rockfall,1.78,Land Fire,1.58,Heat Wave,0.99
+PE,Peru,189.11,124.85,5.00,0.00,Rockfall,22.47,Meteorite Impact,14.98,Prion Infectitous Disease,9.99,Solar Storm,8.74,Solar Storm,7.49
+PH,Philippines,292.45,154.24,3.75,38.56,Seiche,21.59,Fire,20.05,Separatism,15.42,Market Crash,12.34,Subsidence,6.17
+PL,Poland,477.07,219.03,0.45,199.32,Plant Disease,32.86,Fire,24.09,Rogue Wave,19.71,Marine Accident,17.52,Fungal Disease,10.95
+PT,Portugal,198.92,107.43,1.50,75.20,Air Accident,18.26,Market Crash,15.04,Rail Accident,9.67,Forest Fire,7.52,Rail Accident,6.45
+QA,Qatar,164.64,161.06,3.55,46.71,Earthquake,28.99,Chemical Accident,19.33,Seiche,16.11,Asset bubble,12.88,Trade Sanctions,9.66
+RU,Russia,1331.21,379.56,0.75,322.63,Sovereign Failure,68.32,Sovereign Failure,37.96,Civil Disorder,34.16,Landslide,30.37,Rockfall,18.98
+RW,Rwanda,8.10,3.95,4.80,0.16,Convectional Storm,0.55,External Force,0.55,Seiche,0.39,Tsunami,0.28,Flash Flood,0.24
+WS,Samoa,0.76,0.16,3.50,0.05,Marine Accident,0.02,Forest Fire,0.02,Stampede,0.01,Riverine Flood,0.01,Earthquake,0.01
+ST,Sao Tome and Principe,0.32,0.12,0.20,0.11,Labour Dispute,0.02,Explosion,0.01,Extra Tropical Storm,0.01,Energy Blackouts,0.01,Stampede,0.00
+SA,Saudi Arabia,646.00,332.05,2.60,159.38,Sovereign Failure,53.13,Flash Flood,36.53,Land Fire,29.88,Chemical Accident,19.92,Solar Storm,13.28
+SN,Senegal,13.61,5.81,0.25,5.52,Prion Infectitous Disease,0.81,Trade Sanctions,0.75,Market Crash,0.58,Viral Disease,0.35,Explosion,0.35
+RS,Serbia,37.16,6.04,4.10,1.09,Geomagnetic Storm,0.91,Seiche,0.85,Collapse,0.54,Cyber Attack,0.36,Road Accident,0.36
+SC,Seychelles,1.44,0.37,1.80,0.23,Riverine Flood,0.06,Organised Crime,0.05,Extra Tropical Storm,0.03,Chemical Accident,0.03,Bacterial Disease,0.02
+SL,Sierra Leone,4.21,2.41,0.25,2.29,War,0.39,Property Damage,0.31,Trade Sanctions,0.22,Parasitic Disease,0.17,Migration,0.12
+SG,Singapore,292.74,73.56,2.40,38.25,Radiation,13.24,Earthquake,8.09,Migration,6.62,Air Accident,5.88,Tropical Storm,3.68
+SK,Slovakia,87.26,58.40,1.45,41.46,Seiche,9.93,Rogue Wave,8.18,Convectional Storm,5.26,Fungal Disease,3.50,Satellite system failure,2.34
+SI,Slovenia,42.77,24.61,3.30,8.37,Air Accident,4.18,Gas Leak,3.20,Avalanche,2.46,Collapse,1.72,Air Accident,1.48
+SB,Solomon Islands,1.13,0.73,3.40,0.23,Drought,0.13,Viral Disease,0.10,Collapse,0.07,Insect Infestation,0.04,Financial Irregularity,0.04
+ZA,South Africa,314.57,305.83,0.50,275.25,Heat Wave,55.05,Energy Blackouts,30.58,External Force,27.52,Cold Wave,21.41,Fire,15.29
+SS,South Sudan,9.02,4.95,3.85,1.14,Cartel Pressure,0.69,Fire,0.59,Rogue Wave,0.45,Chemical Accident,0.30,Rockfall,0.30
+ES,Spain,1199.06,325.75,3.20,117.27,Seiche,48.86,Fungal Disease,32.58,Terrorism,29.32,Tsunami,26.06,Labour Dispute,16.29
+LK,Sri Lanka,82.32,59.20,2.85,25.46,Radiation,8.88,Cold Wave,6.51,Asset bubble,4.74,Bacterial Disease,4.14,Fire,2.37
+KN,Saint Kitts and Nevis,0.88,0.77,4.25,0.12,Gas Leak,0.12,Market Crash,0.08,Poisoning,0.08,Fungal Disease,0.05,Rogue Wave,0.04
+LC,Saint Lucia,1.43,1.21,4.05,0.23,Cyber Attack,0.17,Animal Disease,0.16,Sovereign Failure,0.11,Seiche,0.10,Flash Flood,0.06
+VC,Saint Vincent and the Grenadines,0.74,0.19,0.55,0.17,Cold Wave,0.03,Road Accident,0.02,Coastal Flood,0.01,Solar Storm,0.01,Sovereign Failure,0.01
+SD,Sudan,97.16,50.13,2.55,24.57,Financial Irregularity,7.02,Convectional Storm,5.51,Land Fire,4.51,Satellite system failure,3.51,Seiche,2.01
+SR,Suriname,5.15,3.59,0.50,3.23,Bacterial Disease,0.61,Riverine Flood,0.40,Data & Privacy Breach,0.32,Migration,0.29,Coastal Flood,0.18
+SZ,Swaziland,4.12,0.95,2.05,0.56,Coastal Flood,0.16,Marine Accident,0.11,Terrorism,0.09,Riverine Flood,0.06,Labour Dispute,0.04
+SE,Sweden,495.62,329.27,0.20,316.10,Tsunami,59.27,Cyber Attack,32.93,Air Accident,26.34,Bacterial Disease,26.34,Parasitic Disease,13.17
+CH,Switzerland,670.79,610.16,1.20,463.72,Prion Infectitous Disease,85.42,Gas Leak,79.32,Extra Tropical Storm,61.02,Rail Accident,36.61,Subsidence,24.41
+TJ,Tajikistan,7.85,2.66,4.10,0.48,Coastal Flood,0.40,Tsunami,0.37,Terrorism,0.27,Data & Privacy Breach,0.21,Satellite system failure,0.13
+TZ,Tanzania,45.63,29.39,2.75,13.23,Cartel Pressure,4.70,Labour Dispute,3.82,Gas Leak,2.94,Tropical Storm,2.35,Flash Flood,1.76
+TH,Thailand,395.17,74.79,1.75,48.61,Bacterial Disease,10.47,Terrorism,8.97,Organised Crime,7.48,Air Accident,5.24,Insect Infestation,3.74
+TG,Togo,4.09,0.94,1.25,0.71,Rogue Wave,0.15,Migration,0.11,Poisoning,0.08,Poisoning,0.06,Chemical Accident,0.06
+TO,Tonga,0.44,0.20,1.10,0.16,Energy Blackouts,0.03,Stampede,0.02,Satellite system failure,0.02,Separatism,0.01,Cyber Attack,0.01
+TT,Trinidad and Tobago,23.56,15.21,0.55,13.54,Fungal Disease,2.13,Meteorite Impact,2.13,Meteorite Impact,1.22,Trade Sanctions,0.91,Chemical Accident,0.61
+TN,Tunisia,43.02,32.77,4.40,3.93,Road Accident,5.57,Water Supply Crisis,4.59,Parasitic Disease,2.62,Riverine Flood,2.62,Marine Accident,1.97
+TR,Turkey,717.88,308.93,3.25,108.13,Financial Irregularity,46.34,Subsidence,30.89,Migration,24.71,External Force,21.63,Organised Crime,12.36
+TM,Turkmenistan,35.85,30.84,2.80,13.57,Water Supply Crisis,5.24,Animal Disease,3.08,Seiche,2.78,Rogue Wave,1.85,Forest Fire,1.85
+TV,Tuvalu,0.03,0.03,0.10,0.03,Explosion,0.00,Prion Infectitous Disease,0.00,Earthquake,0.00,Convectional Storm,0.00,Solar Storm,0.00
+UG,Uganda,27.53,8.15,2.45,4.16,Fungal Disease,1.30,Extra Tropical Storm,0.81,Earthquake,0.81,Prion Infectitous Disease,0.57,Chemical Accident,0.49
+UA,Ukraine,90.62,22.11,1.00,17.69,Water Supply Crisis,3.32,Bacterial Disease,2.21,Volcano,1.77,Explosion,1.55,Labour Dispute,1.33
+AE,United Arab Emirates,370.30,210.59,3.15,77.92,Poisoning,35.80,Air Accident,23.17,Road Accident,16.85,Solar Storm,16.85,Poisoning,8.42
+GB,United Kingdom,2858.00,2723.60,3.65,735.37,Terrorism,463.01,Landslide,272.36,Explosion,245.12,Extra Tropical Storm,190.65,Collapse,108.94
+US,United States of America,18036.65,3803.12,2.60,1825.50,Cartel Pressure,608.50,Bacterial Disease,532.44,Plant Disease,304.25,Sovereign Failure,266.22,Satellite system failure,152.12
+UY,Uruguay,53.44,37.13,4.05,7.05,Extra Tropical Storm,5.94,Rail Accident,5.20,Landslide,3.71,Collapse,2.97,Financial Irregularity,2.23
+UZ,Uzbekistan,66.73,24.58,0.60,21.63,Rail Accident,3.44,Parasitic Disease,2.70,Cold Wave,2.46,Data & Privacy Breach,1.47,Energy Blackouts,0.98
+VU,Vanuatu,0.74,0.55,4.65,0.04,Plant Disease,0.10,Civil Disorder,0.07,Labour Dispute,0.04,Tsunami,0.03,Insect Infestation,0.03
+VN,Vietnam,193.60,183.68,2.30,99.19,Road Accident,31.23,Road Accident,18.37,Subsidence,18.37,Water Supply Crisis,12.86,Tropical Storm,11.02
+YE,Yemen,37.73,33.57,3.15,12.42,Subsidence,6.04,Earthquake,4.36,Trade Sanctions,3.36,Riverine Flood,2.35,Road Accident,2.01
+ZM,Zambia,21.15,16.69,4.30,2.34,Viral Disease,2.34,Volcano,1.67,Organised Crime,1.34,Plant Disease,1.17,Solar Storm,1.00
+ZW,Zimbabwe,14.42,0.48,4.55,0.04,Marine Accident,0.08,Cold Wave,0.05,Fire,0.04,Radiation,0.03,Extra Tropical Storm,0.02

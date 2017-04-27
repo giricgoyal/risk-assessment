@@ -12,15 +12,15 @@ console.log('starting server on ' + env);
 var mongodbConfig = {
     localhost: {
         ip: 'localhost',
-        db: 'vodapp'
+        db: 'riskanly'
     },
     staging: {
         ip: 'localhost',
-        db: 'vodapp'
+        db: 'riskanly'
     },
     live: {
         ip: 'localhost',
-        db: ''
+        db: 'riskanly'
     }
 };
 

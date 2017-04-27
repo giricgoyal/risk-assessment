@@ -9,7 +9,7 @@ var rootRoutes = function(app) {
     app.use('/api/oauth', require('./auth/route'));
 
     // movie routes
-    // app.use('/api/movies', require('./movies/route'));
+    app.use('/api/events', require('./events/route'));
 };
 
 module.exports = rootRoutes;
