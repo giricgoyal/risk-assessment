@@ -11122,7 +11122,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var environment_1 = __webpack_require__(161);
 var api = {
     prod: '',
-    dev: 'http://localhost:3000/api',
+    dev: 'http://52.66.86.92:3902/api',
     localhost: 'http://localhost:3000/api'
 };
 var env = 'dev';
