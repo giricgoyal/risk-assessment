@@ -29,7 +29,7 @@ var serverConfig = {
         port: 3000
     },
     staging: {
-        port: 3901
+        port: 3902
     },
     live: {
         port: 3001
