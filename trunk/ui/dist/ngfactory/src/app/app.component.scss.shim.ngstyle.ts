@@ -7,4 +7,4 @@
 
 
 export const styles:any[] = ['[_nghost-%COMP%]   .menu[_ngcontent-%COMP%] {\n  padding: 20px;\n  width: 100%;\n  text-align: center; }\n\n[_nghost-%COMP%]   .content[_ngcontent-%COMP%] {\n  display: block;\n  padding: 30px;\n  background-color: gainsboro; }'];
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL1VzZXJzL2dpcmljL1Byb2plY3RzL25nMi1ib290c3RyYXAvYXBwVUkvc3JjL2FwcC9hcHAuY29tcG9uZW50LnNjc3Muc2hpbS5uZ3N0eWxlLnRzIiwidmVyc2lvbiI6Mywic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmc6Ly8vVXNlcnMvZ2lyaWMvUHJvamVjdHMvbmcyLWJvb3RzdHJhcC9hcHBVSS9zcmMvYXBwL2FwcC5jb21wb25lbnQudHMiXSwic291cmNlc0NvbnRlbnQiOlsiICJdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7OyJ9
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL1VzZXJzL2dpcmljL1Byb2plY3RzL3Jpc2stYXNzZXNzbWVudC90cnVuay91aS9zcmMvYXBwL2FwcC5jb21wb25lbnQuc2Nzcy5zaGltLm5nc3R5bGUudHMiLCJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJuZzovLy9Vc2Vycy9naXJpYy9Qcm9qZWN0cy9yaXNrLWFzc2Vzc21lbnQvdHJ1bmsvdWkvc3JjL2FwcC9hcHAuY29tcG9uZW50LnRzIl0sInNvdXJjZXNDb250ZW50IjpbIiAiXSwibWFwcGluZ3MiOiJBQUFBOzs7Ozs7OzsifQ==

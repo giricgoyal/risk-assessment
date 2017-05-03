@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var shared_1 = require("../../shared");
 var component_1 = require("./component");
-var sidebar_1 = require("../sidebar");
+// import { AppSidebarModule } from '../sidebar';
 var AppHeaderModule = (function () {
     function AppHeaderModule() {
     }
@@ -12,7 +12,7 @@ var AppHeaderModule = (function () {
 AppHeaderModule.decorators = [
     { type: core_1.NgModule, args: [{
                 imports: [
-                    sidebar_1.AppSidebarModule,
+                    // AppSidebarModule,
                     shared_1.SharedModule
                 ],
                 declarations: [

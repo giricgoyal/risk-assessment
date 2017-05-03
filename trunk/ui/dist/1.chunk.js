@@ -1,17 +1,87 @@
-webpackJsonp([1,7],{
+webpackJsonp([1,6],{
 
-/***/ 290:
+/***/ 746:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__login_component__ = __webpack_require__(295);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__signup_component__ = __webpack_require__(296);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__forgotpassword_component__ = __webpack_require__(294);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__shared__ = __webpack_require__(42);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__routes__ = __webpack_require__(299);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AuthenticationModule", function() { return AuthenticationModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared__ = __webpack_require__(88);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__component__ = __webpack_require__(755);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__header__ = __webpack_require__(767);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__routes__ = __webpack_require__(768);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MainModule", function() { return MainModule; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+var MainModule = (function () {
+    function MainModule() {
+    }
+    return MainModule;
+}());
+MainModule = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* NgModule */])({
+        imports: [
+            __WEBPACK_IMPORTED_MODULE_3__header__["a" /* AppHeaderModule */],
+            __WEBPACK_IMPORTED_MODULE_4__routes__["a" /* MainRouteModule */],
+            __WEBPACK_IMPORTED_MODULE_1__shared__["a" /* SharedModule */]
+        ],
+        declarations: [
+            __WEBPACK_IMPORTED_MODULE_2__component__["a" /* MainComponent */]
+        ]
+    })
+], MainModule);
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ 755:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MainComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+var MainComponent = (function () {
+    function MainComponent() {
+    }
+    return MainComponent;
+}());
+MainComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* Component */])({
+        selector: 'main-component',
+        template: __webpack_require__(777),
+        styles: [__webpack_require__(773)],
+        providers: []
+    })
+], MainComponent);
+
+//# sourceMappingURL=component.js.map
+
+/***/ }),
+
+/***/ 766:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared__ = __webpack_require__(88);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppHeaderComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -24,47 +94,116 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-
-
-
-var AuthenticationModule = (function () {
-    function AuthenticationModule(authService) {
+var AppHeaderComponent = (function () {
+    function AppHeaderComponent(sessionService, authService) {
+        this.sessionService = sessionService;
         this.authService = authService;
-        if (this.authService.isAuthenticated()) {
-            this.authService.redirectAfterAuth();
-        }
+        this.title = '';
+        this.title = __WEBPACK_IMPORTED_MODULE_1__shared__["c" /* APP_CONFIG */].appTitle;
+        this.fullName = this.sessionService.getSessionObj('fullname');
+        this.isAdmin = this.sessionService.getSessionObj('is_admin') === 'true';
+        this.isDoctor = this.sessionService.getSessionObj('access_type') === 'doctor';
     }
-    return AuthenticationModule;
+    AppHeaderComponent.prototype.toggleSidebar = function () {
+    };
+    AppHeaderComponent.prototype.logout = function () {
+        this.authService.logout();
+    };
+    return AppHeaderComponent;
 }());
-AuthenticationModule = __decorate([
+AppHeaderComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* Component */])({
+        selector: 'app-header',
+        template: __webpack_require__(776),
+        styles: [__webpack_require__(772)],
+        providers: []
+    }),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__shared__["e" /* SessionService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__shared__["e" /* SessionService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__shared__["f" /* AuthenticationService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__shared__["f" /* AuthenticationService */]) === "function" && _b || Object])
+], AppHeaderComponent);
+
+var _a, _b;
+//# sourceMappingURL=component.js.map
+
+/***/ }),
+
+/***/ 767:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared__ = __webpack_require__(88);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__component__ = __webpack_require__(766);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppHeaderModule; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+// import { AppSidebarModule } from '../sidebar';
+var AppHeaderModule = (function () {
+    function AppHeaderModule() {
+    }
+    return AppHeaderModule;
+}());
+AppHeaderModule = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* NgModule */])({
         imports: [
-            __WEBPACK_IMPORTED_MODULE_5__routes__["a" /* AuthenticationRouteModule */],
-            __WEBPACK_IMPORTED_MODULE_4__shared__["a" /* SharedModule */]
+            // AppSidebarModule,
+            __WEBPACK_IMPORTED_MODULE_1__shared__["a" /* SharedModule */]
         ],
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_1__login_component__["a" /* LoginComponent */],
-            __WEBPACK_IMPORTED_MODULE_2__signup_component__["a" /* SignupComponent */],
-            __WEBPACK_IMPORTED_MODULE_3__forgotpassword_component__["a" /* ForgotPasswordComponent */]
-        ]
-    }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_4__shared__["e" /* AuthenticationService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__shared__["e" /* AuthenticationService */]) === "function" && _a || Object])
-], AuthenticationModule);
+            __WEBPACK_IMPORTED_MODULE_2__component__["a" /* AppHeaderComponent */]
+        ],
+        exports: [__WEBPACK_IMPORTED_MODULE_2__component__["a" /* AppHeaderComponent */]]
+    })
+], AppHeaderModule);
 
-var _a;
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 292:
+/***/ 768:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_router__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__component__ = __webpack_require__(755);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared__ = __webpack_require__(88);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MainRouteModule; });
+
+
+
+var routes = [
+    {
+        path: '',
+        component: __WEBPACK_IMPORTED_MODULE_1__component__["a" /* MainComponent */],
+        children: [
+            {
+                path: '',
+                loadChildren: '../risk-map/index#RiskMapModule',
+                canActivate: [__WEBPACK_IMPORTED_MODULE_2__shared__["d" /* AuthGuard */]]
+            }
+        ]
+    }
+];
+var MainRouteModule = __WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* RouterModule */].forChild(routes);
+//# sourceMappingURL=routes.js.map
+
+/***/ }),
+
+/***/ 772:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(20)();
+exports = module.exports = __webpack_require__(28)();
 // imports
 
 
 // module
-exports.push([module.i, ".download-link-img {\n  max-width: 200px; }\n\n.login-container > div,\n.signup-container > div {\n  height: 100vh; }\n\n.login-container .login-panel,\n.login-container .signup-panel,\n.signup-container .login-panel,\n.signup-container .signup-panel {\n  box-shadow: 0px 0px 2px 2px #999999;\n  -moz-box-shadow: 0px 0px 2px 2px #999999;\n  -webkit-box-shadow: 0px 0px 2px 2px #999999;\n  max-width: 350px;\n  width: 100%; }\n", ""]);
+exports.push([module.i, "", ""]);
 
 // exports
 
@@ -74,193 +213,35 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 294:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ 773:
+/***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ForgotPasswordComponent; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
+exports = module.exports = __webpack_require__(28)();
+// imports
 
-var ForgotPasswordComponent = (function () {
-    function ForgotPasswordComponent() {
-    }
-    return ForgotPasswordComponent;
-}());
-ForgotPasswordComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* Component */])({
-        selector: 'forgotpassword-component',
-        template: __webpack_require__(310),
-        styles: [__webpack_require__(292)],
-        providers: []
-    })
-], ForgotPasswordComponent);
 
-//# sourceMappingURL=forgotpassword.component.js.map
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 295:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared__ = __webpack_require__(42);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginComponent; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-var LoginComponent = (function () {
-    function LoginComponent(httpService, authService) {
-        this.data = {
-            phonenumber: '',
-            password: ''
-        };
-        this.httpService = httpService;
-        this.authService = authService;
-        this.showLoader = false;
-    }
-    LoginComponent.prototype.ngOnInit = function () {
-    };
-    LoginComponent.prototype.login = function () {
-        var _this = this;
-        this.showLoader = true;
-        this.httpService.request('/users/login', 'POST', 'json', this.data, null, function (response) {
-            console.log(response);
-            _this.authService.getToken(response, _this.data, function () {
-                _this.showLoader = false;
-            }, null);
-        }, function () {
-            _this.showLoader = false;
-        });
-    };
-    LoginComponent.prototype.isLoginDisabled = function () {
-        return !this.data.phonenumber || !this.data.password;
-    };
-    return LoginComponent;
-}());
-LoginComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* Component */])({
-        selector: 'login-component',
-        template: __webpack_require__(311),
-        styles: [__webpack_require__(292)]
-    }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__shared__["f" /* HttpService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__shared__["f" /* HttpService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__shared__["e" /* AuthenticationService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__shared__["e" /* AuthenticationService */]) === "function" && _b || Object])
-], LoginComponent);
-
-var _a, _b;
-//# sourceMappingURL=login.component.js.map
-
-/***/ }),
-
-/***/ 296:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared__ = __webpack_require__(42);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SignupComponent; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-var SignupComponent = (function () {
-    function SignupComponent(httpService, authService) {
-        this.httpService = httpService;
-        this.authService = authService;
-    }
-    return SignupComponent;
-}());
-SignupComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* Component */])({
-        selector: 'signup-component',
-        template: __webpack_require__(312),
-        styles: [__webpack_require__(292)],
-        providers: []
-    }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__shared__["f" /* HttpService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__shared__["f" /* HttpService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__shared__["e" /* AuthenticationService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__shared__["e" /* AuthenticationService */]) === "function" && _b || Object])
-], SignupComponent);
-
-var _a, _b;
-//# sourceMappingURL=signup.component.js.map
-
-/***/ }),
-
-/***/ 299:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_router__ = __webpack_require__(21);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__login_component__ = __webpack_require__(295);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__signup_component__ = __webpack_require__(296);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__forgotpassword_component__ = __webpack_require__(294);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AuthenticationRouteModule; });
-
-
-
-
-var routes = [
-    {
-        path: '',
-        redirectTo: 'login',
-        pathMatch: 'full'
-    },
-    {
-        path: 'login',
-        component: __WEBPACK_IMPORTED_MODULE_1__login_component__["a" /* LoginComponent */]
-    },
-    {
-        path: 'signup',
-        component: __WEBPACK_IMPORTED_MODULE_2__signup_component__["a" /* SignupComponent */]
-    },
-    {
-        path: 'requestotp',
-        component: __WEBPACK_IMPORTED_MODULE_3__forgotpassword_component__["a" /* ForgotPasswordComponent */]
-    }
-];
-var AuthenticationRouteModule = __WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* RouterModule */].forChild(routes);
-//# sourceMappingURL=routes.js.map
-
-/***/ }),
-
-/***/ 310:
+/***/ 776:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"login-container\">\n    <div class=\"d-flex align-items-center justify-content-center flex-wrap\">\n        <div class=\"text-center mr-5\">\n        </div>\n        <div class=\"login-panel ml-5\">\n            <loader></loader>\n            <div class=\"p-5\">\n                <div class=\"text-center mb-4\">\n                    <h6>Forgot Password</h6>\n                    <label>Already have an account? <a [routerLink]=\"['/login']\">Login</a></label>\n                </div>\n                <form>\n                    <div class=\"form-group\">\n                        <!--<label for=\"username\">Mobile Number/Email</label>-->\n                        <input type=\"text\" class=\"form-control\" id=\"username\" placeholder=\"Mobile number/Email address\">\n                    </div>\n                    <button class=\"btn btn-primary btn-block\">Request OTP</button>\n                </form>\n            </div>\n        </div>\n        <div></div>\n    </div>\n</div>"
+module.exports = "<header>\n    <nav class=\"navbar navbar-light  bg-primary d-flex align-items-center justify-content-center flex-wrap\">\n        <div class=\"container align-items-center\">\n            <!--<a class=\"pull-left text-white\" (click)=\"toggleSidebar()\"><i class=\"fa fa-bars fa-2x\"></i></a>\n            <a class=\"navbar-brand\" ng-click=\"$ctrl.text()\" ng-bind=\"::$ctrl.appName | lowercase\">\n            </a>\n            <span class=\"pull-right text-white\">\n            <a class=\"text-white\" (click)=\"logout()\">Logout</a>\n            </span>-->\n        </div>\n        <div></div>\n    </nav>\n    <!--<sidebar></sidebar>-->\n</header>"
 
 /***/ }),
 
-/***/ 311:
+/***/ 777:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"login-container\">\n    <div class=\"d-flex align-items-center justify-content-center flex-wrap\">\n        <div class=\"text-center mr-5\">\n        </div>\n        <div class=\"login-panel ml-5\">\n            <loader [showLoader]=\"showLoader\"></loader>\n            <div class=\"p-5\">\n                <div class=\"text-center mb-4\">\n                    <h6>Login</h6>\n                    <label>Don't have an account? <a [routerLink]=\"['/signup']\">Signup</a></label>\n                </div>\n                <form #f=\"ngForm\" (ngSubmit)=\"login()\">\n                    <div class=\"form-group\">\n                        <!--<label for=\"username\">Mobile Number/Email</label>-->\n                        <input type=\"text\" class=\"form-control\" name=\"username\" id=\"username\" [(ngModel)]=\"data.phonenumber\" placeholder=\"Mobile number/Email address\" />\n                    </div>\n                    <div class=\"form-group\">\n                        <!--<label for=\"password\">Password</label>-->\n                        <input type=\"password\" class=\"form-control\" name=\"password\" id=\"password\" [(ngModel)]=\"data.password\" placeholder=\"Password\" />\n                    </div>\n                    <button class=\"btn btn-primary btn-block\" [disabled]=\"isLoginDisabled()\" type=\"submit\">\n                    Login\n                </button>\n                    <div class=\"text-center mt-4\">\n                        <a [routerLink]=\"['/requestotp']\">Forgot Password?</a>\n                    </div>\n                </form>\n            </div>\n        </div>\n    </div>\n</div>"
-
-/***/ }),
-
-/***/ 312:
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"signup-container\">\n    <div class=\"d-flex align-items-center justify-content-center flex-wrap\">\n        <div class=\"text-center mr-5\">\n        </div>\n        <div class=\"signup-panel ml-5\">\n            <loader></loader>\n            <div class=\"p-5\">\n                <div class=\"text-center mb-4\">\n                    <h6>Sign</h6>\n                    <label>Already have an account? <a [routerLink]=\"['/login']\">Login</a></label>\n                </div>\n                <form novalidate>\n                    <div class=\"form-group\">\n                        <!--<label for=\"password\">Password</label>-->\n                        <input type=\"text\" class=\"form-control\" id=\"firstname\" placeholder=\"First Name\">\n                    </div>\n                    <div class=\"form-group\">\n                        <!--<label for=\"password\">Password</label>-->\n                        <input type=\"text\" class=\"form-control\" id=\"lastname\" placeholder=\"Last Name\">\n                    </div>\n                    <div class=\"form-group\">\n                        <!--<label for=\"username\">Mobile Number/Email</label>-->\n                        <input type=\"text\" class=\"form-control\" id=\"phonenumber\" placeholder=\"Mobile number\">\n                    </div>\n                    <div class=\"form-group\">\n                        <!--<label for=\"username\">Mobile Number/Email</label>-->\n                        <input type=\"email\" class=\"form-control\" id=\"email\" placeholder=\"Email address\">\n                    </div>\n                    <div class=\"form-group\">\n                        <!--<label for=\"password\">Password</label>-->\n                        <input type=\"password\" class=\"form-control\" id=\"password\" placeholder=\"Password\">\n                    </div>\n                    <button ng-disabled=\"$ctrl.isSignupDisabled()\" class=\"btn btn-primary btn-block\" ng-click=\"signup()\">Signup</button>\n                </form>\n            </div>\n        </div>\n    </div>\n</div>"
+module.exports = "<app-header></app-header>\n<main>\n    <router-outlet></router-outlet>\n</main>"
 
 /***/ })
 

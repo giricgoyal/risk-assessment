@@ -8,7 +8,7 @@ var passport = require('passport');
 // import project modules
 var controller = require('./controller');
 
-router.get('/history/:id',
+router.get('/',
     (req, res, next) => {
         next();
     },

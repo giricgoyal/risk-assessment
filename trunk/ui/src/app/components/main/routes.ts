@@ -9,8 +9,8 @@ const routes: Routes = [
         component: MainComponent,
         children : [
             {
-                path: 'about',
-                loadChildren: '../about/index#AboutModule',
+                path: '',
+                loadChildren: '../risk-map/index#RiskMapModule',
                 canActivate: [AuthGuard]
             }
         ]

@@ -36,6 +36,21 @@ var HttpService = (function () {
     HttpService.prototype.setHttpDefaultsHeadersCommonAuthorization = function (header) {
         this.headers.set('Authorization', header);
     };
+    HttpService.prototype.requestExternal = function (url, method, dataType, data, params, successFn, errorFn) {
+        var _this = this;
+        this.http.request(url, {
+            method: method,
+            body: data
+        })
+            .map(this.extractData)
+            .catch(this.handleError)
+            .subscribe(function (res) { return successFn(res); }, function (err) {
+            _this.toasterService.error('Error', err);
+            if (errorFn) {
+                errorFn(err);
+            }
+        });
+    };
     HttpService.prototype.request = function (url, method, dataType, data, params, successFn, errorFn) {
         var _this = this;
         this.http.request(__1.APP_CONFIG.api + url, {

@@ -1,16 +1,31 @@
 <div class="sidebar-container">
-    <ul class="nav navbar-nav nav-right">
-        <li class="text-center">
-            <img src="assets/images/logo.png" height="200px" width="200px" class="img-fluid" alt="apnaDoctor" />
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" routerLinkActive="active" [routerLink]="['/app/about']">
-                <span class="nav-item-icon fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-info fa-stack-1x fa-inverse"></i>
-                </span>
-                <span class="nav-item-text">About</span>
-            </a>
-        </li>
-    </ul>
+    <div class="form-group">
+        <label>Risk</label>
+        <select class="form-control" [(ngModel)]="risk" (ngModelChange)="onRiskChange()">
+            <option value="risk_class">Risk Class</option>
+            <option value="risk_type">Risk Type</option>
+            <option value="risk_group">Risk Group</option>
+            <option value="threat">Threat</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <select class="form-control" [(ngModel)]="subRisk" (ngModelChange)="onSubRiskChange()">
+            <option *ngFor="let option of subRisks; let i = index" value="{{option.key}}">{{option.value}}</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label>Metric</label>
+        <select class="form-control" [(ngModel)]="metric" (ngModelChange)="onMetricChange()">
+            <option value="fatalities">Fatalities</option>
+            <option value="economic_loss">Economic Loss</option>
+            <option value="affected_people">Affected People</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label>Magnitude</label>
+        <select class="form-control" [(ngModel)]="magnitude" (ngModelChange)="omMagnitudeChange()">
+            <option value="">None</option>
+            <option *ngFor="let option of magnitudeList; let i = index" value="{{option.key}}">{{option.value}}</option>
+        </select>
+    </div>
 </div>

@@ -8,7 +8,7 @@ var passport = require('passport');
 // import project modules
 var controller = require('./controller');
 
-router.get('/:threat',
+router.post('/',
     (req, res, next) => {
         next();
     },

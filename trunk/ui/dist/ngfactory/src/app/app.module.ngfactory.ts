@@ -54,16 +54,17 @@ import * as import44 from '../../../../src/app/shared/services/http.service';
 import * as import45 from '../../../../src/app/shared/services/session.service';
 import * as import46 from '../../../../src/app/shared/services/auth.service';
 import * as import47 from '../../../../src/app/shared/services/auth.guard.service';
-import * as import48 from '../../node_modules/@ng-bootstrap/ng-bootstrap/alert/alert.ngfactory';
-import * as import49 from '../../node_modules/@ng-bootstrap/ng-bootstrap/tooltip/tooltip.ngfactory';
-import * as import50 from '../../node_modules/@ng-bootstrap/ng-bootstrap/typeahead/typeahead-window.ngfactory';
-import * as import51 from '../../node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker.ngfactory';
-import * as import52 from '../../node_modules/@ng-bootstrap/ng-bootstrap/modal/modal-backdrop.ngfactory';
-import * as import53 from '../../node_modules/@ng-bootstrap/ng-bootstrap/modal/modal-window.ngfactory';
-import * as import54 from '../../node_modules/@ng-bootstrap/ng-bootstrap/popover/popover.ngfactory';
-import * as import55 from './app.component.ngfactory';
-import * as import56 from './title.component.ngfactory';
-import * as import57 from './meta-description.component.ngfactory';
+import * as import48 from 'd3-ng2-service/src/d3.service';
+import * as import49 from '../../node_modules/@ng-bootstrap/ng-bootstrap/alert/alert.ngfactory';
+import * as import50 from '../../node_modules/@ng-bootstrap/ng-bootstrap/tooltip/tooltip.ngfactory';
+import * as import51 from '../../node_modules/@ng-bootstrap/ng-bootstrap/typeahead/typeahead-window.ngfactory';
+import * as import52 from '../../node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker.ngfactory';
+import * as import53 from '../../node_modules/@ng-bootstrap/ng-bootstrap/modal/modal-backdrop.ngfactory';
+import * as import54 from '../../node_modules/@ng-bootstrap/ng-bootstrap/modal/modal-window.ngfactory';
+import * as import55 from '../../node_modules/@ng-bootstrap/ng-bootstrap/popover/popover.ngfactory';
+import * as import56 from './app.component.ngfactory';
+import * as import57 from './title.component.ngfactory';
+import * as import58 from './meta-description.component.ngfactory';
 class AppModuleInjector extends import0.ɵNgModuleInjector<import1.AppModule> {
   _CommonModule_0:import2.CommonModule;
   _ɵba_1:import3.ɵba;
@@ -157,29 +158,30 @@ class AppModuleInjector extends import0.ɵNgModuleInjector<import1.AppModule> {
   __ActivatedRoute_89:any;
   __AuthenticationService_90:import46.AuthenticationService;
   __AuthGuard_91:import47.AuthGuard;
-  __NoPreloading_92:import5.NoPreloading;
-  __PreloadingStrategy_93:any;
-  __RouterPreloader_94:import5.RouterPreloader;
-  __PreloadAllModules_95:import5.PreloadAllModules;
-  __ROUTER_INITIALIZER_96:any;
-  __APP_BOOTSTRAP_LISTENER_97:any[];
+  __D3Service_92:import48.D3Service;
+  __NoPreloading_93:import5.NoPreloading;
+  __PreloadingStrategy_94:any;
+  __RouterPreloader_95:import5.RouterPreloader;
+  __PreloadAllModules_96:import5.PreloadAllModules;
+  __ROUTER_INITIALIZER_97:any;
+  __APP_BOOTSTRAP_LISTENER_98:any[];
   constructor(parent:import0.Injector) {
     super(parent,[
-      import48.NgbAlertNgFactory,
-      import49.NgbTooltipWindowNgFactory,
-      import50.NgbTypeaheadWindowNgFactory,
-      import51.NgbDatepickerNgFactory,
-      import52.NgbModalBackdropNgFactory,
-      import53.NgbModalWindowNgFactory,
-      import54.NgbPopoverWindowNgFactory,
-      import55.AppComponentNgFactory,
-      import56.TitleComponentNgFactory,
-      import57.MetaDescriptionComponentNgFactory
+      import49.NgbAlertNgFactory,
+      import50.NgbTooltipWindowNgFactory,
+      import51.NgbTypeaheadWindowNgFactory,
+      import52.NgbDatepickerNgFactory,
+      import53.NgbModalBackdropNgFactory,
+      import54.NgbModalWindowNgFactory,
+      import55.NgbPopoverWindowNgFactory,
+      import56.AppComponentNgFactory,
+      import57.TitleComponentNgFactory,
+      import58.MetaDescriptionComponentNgFactory
     ]
     ,[
-      import55.AppComponentNgFactory,
-      import56.TitleComponentNgFactory,
-      import57.MetaDescriptionComponentNgFactory
+      import56.AppComponentNgFactory,
+      import57.TitleComponentNgFactory,
+      import58.MetaDescriptionComponentNgFactory
     ]
     );
   }
@@ -376,29 +378,33 @@ class AppModuleInjector extends import0.ɵNgModuleInjector<import1.AppModule> {
     if ((this.__AuthGuard_91 == null)) { (this.__AuthGuard_91 = new import47.AuthGuard(this._AuthenticationService_90,this._Router_22)); }
     return this.__AuthGuard_91;
   }
-  get _NoPreloading_92():import5.NoPreloading {
-    if ((this.__NoPreloading_92 == null)) { (this.__NoPreloading_92 = new import5.NoPreloading()); }
-    return this.__NoPreloading_92;
+  get _D3Service_92():import48.D3Service {
+    if ((this.__D3Service_92 == null)) { (this.__D3Service_92 = new import48.D3Service()); }
+    return this.__D3Service_92;
   }
-  get _PreloadingStrategy_93():any {
-    if ((this.__PreloadingStrategy_93 == null)) { (this.__PreloadingStrategy_93 = this._NoPreloading_92); }
-    return this.__PreloadingStrategy_93;
+  get _NoPreloading_93():import5.NoPreloading {
+    if ((this.__NoPreloading_93 == null)) { (this.__NoPreloading_93 = new import5.NoPreloading()); }
+    return this.__NoPreloading_93;
   }
-  get _RouterPreloader_94():import5.RouterPreloader {
-    if ((this.__RouterPreloader_94 == null)) { (this.__RouterPreloader_94 = new import5.RouterPreloader(this._Router_22,this._NgModuleFactoryLoader_20,this._Compiler_19,this,this._PreloadingStrategy_93)); }
-    return this.__RouterPreloader_94;
+  get _PreloadingStrategy_94():any {
+    if ((this.__PreloadingStrategy_94 == null)) { (this.__PreloadingStrategy_94 = this._NoPreloading_93); }
+    return this.__PreloadingStrategy_94;
   }
-  get _PreloadAllModules_95():import5.PreloadAllModules {
-    if ((this.__PreloadAllModules_95 == null)) { (this.__PreloadAllModules_95 = new import5.PreloadAllModules()); }
-    return this.__PreloadAllModules_95;
+  get _RouterPreloader_95():import5.RouterPreloader {
+    if ((this.__RouterPreloader_95 == null)) { (this.__RouterPreloader_95 = new import5.RouterPreloader(this._Router_22,this._NgModuleFactoryLoader_20,this._Compiler_19,this,this._PreloadingStrategy_94)); }
+    return this.__RouterPreloader_95;
   }
-  get _ROUTER_INITIALIZER_96():any {
-    if ((this.__ROUTER_INITIALIZER_96 == null)) { (this.__ROUTER_INITIALIZER_96 = import5.ɵi(this._ɵg_9)); }
-    return this.__ROUTER_INITIALIZER_96;
+  get _PreloadAllModules_96():import5.PreloadAllModules {
+    if ((this.__PreloadAllModules_96 == null)) { (this.__PreloadAllModules_96 = new import5.PreloadAllModules()); }
+    return this.__PreloadAllModules_96;
   }
-  get _APP_BOOTSTRAP_LISTENER_97():any[] {
-    if ((this.__APP_BOOTSTRAP_LISTENER_97 == null)) { (this.__APP_BOOTSTRAP_LISTENER_97 = [this._ROUTER_INITIALIZER_96]); }
-    return this.__APP_BOOTSTRAP_LISTENER_97;
+  get _ROUTER_INITIALIZER_97():any {
+    if ((this.__ROUTER_INITIALIZER_97 == null)) { (this.__ROUTER_INITIALIZER_97 = import5.ɵi(this._ɵg_9)); }
+    return this.__ROUTER_INITIALIZER_97;
+  }
+  get _APP_BOOTSTRAP_LISTENER_98():any[] {
+    if ((this.__APP_BOOTSTRAP_LISTENER_98 == null)) { (this.__APP_BOOTSTRAP_LISTENER_98 = [this._ROUTER_INITIALIZER_97]); }
+    return this.__APP_BOOTSTRAP_LISTENER_98;
   }
   createInternal():import1.AppModule {
     this._CommonModule_0 = new import2.CommonModule();
@@ -428,19 +434,11 @@ class AppModuleInjector extends import0.ɵNgModuleInjector<import1.AppModule> {
     this._Location_18 = new import2.Location(this._LocationStrategy_17);
     this._Compiler_19 = new import0.Compiler();
     this._NgModuleFactoryLoader_20 = new import0.SystemJsNgModuleLoader(this._Compiler_19,this.parent.get(import0.SystemJsNgModuleLoaderConfig,(null as any)));
-      this._ROUTES_21 = [[
-        {
+        this._ROUTES_21 = [[{
           path: '',
-          loadChildren: './components/authentication/index#AuthenticationModule'
-        }
-        ,
-        {
-          path: 'app',
           loadChildren: './components/main/index#MainModule'
         }
-
-      ]
-    ];
+    ]];
     this._Router_22 = import5.ɵe(this._ApplicationRef_13,this._UrlSerializer_14,this._RouterOutletMap_15,this._Location_18,this,this._NgModuleFactoryLoader_20,this._Compiler_19,this._ROUTES_21,this._ROUTER_CONFIGURATION_16,this.parent.get(import5.UrlHandlingStrategy,(null as any)),this.parent.get(import5.RouteReuseStrategy,(null as any)));
     this._RouterModule_23 = new import5.RouterModule(this._ɵa_4,this._Router_22);
     this._SharedModule_24 = new import6.SharedModule();
@@ -559,19 +557,20 @@ class AppModuleInjector extends import0.ɵNgModuleInjector<import1.AppModule> {
     if ((token === import5.ActivatedRoute)) { return this._ActivatedRoute_89; }
     if ((token === import46.AuthenticationService)) { return this._AuthenticationService_90; }
     if ((token === import47.AuthGuard)) { return this._AuthGuard_91; }
-    if ((token === import5.NoPreloading)) { return this._NoPreloading_92; }
-    if ((token === import5.PreloadingStrategy)) { return this._PreloadingStrategy_93; }
-    if ((token === import5.RouterPreloader)) { return this._RouterPreloader_94; }
-    if ((token === import5.PreloadAllModules)) { return this._PreloadAllModules_95; }
-    if ((token === import5.ROUTER_INITIALIZER)) { return this._ROUTER_INITIALIZER_96; }
-    if ((token === import0.APP_BOOTSTRAP_LISTENER)) { return this._APP_BOOTSTRAP_LISTENER_97; }
+    if ((token === import48.D3Service)) { return this._D3Service_92; }
+    if ((token === import5.NoPreloading)) { return this._NoPreloading_93; }
+    if ((token === import5.PreloadingStrategy)) { return this._PreloadingStrategy_94; }
+    if ((token === import5.RouterPreloader)) { return this._RouterPreloader_95; }
+    if ((token === import5.PreloadAllModules)) { return this._PreloadAllModules_96; }
+    if ((token === import5.ROUTER_INITIALIZER)) { return this._ROUTER_INITIALIZER_97; }
+    if ((token === import0.APP_BOOTSTRAP_LISTENER)) { return this._APP_BOOTSTRAP_LISTENER_98; }
     return notFoundResult;
   }
   destroyInternal():void {
     this._ɵf_12.ngOnDestroy();
     (this.__ɵDomSharedStylesHost_79 && this._ɵDomSharedStylesHost_79.ngOnDestroy());
-    (this.__RouterPreloader_94 && this._RouterPreloader_94.ngOnDestroy());
+    (this.__RouterPreloader_95 && this._RouterPreloader_95.ngOnDestroy());
   }
 }
 export const AppModuleNgFactory:import0.NgModuleFactory<import1.AppModule> = new import0.NgModuleFactory<any>(AppModuleInjector,import1.AppModule);
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL1VzZXJzL2dpcmljL1Byb2plY3RzL25nMi1ib290c3RyYXAvYXBwVUkvc3JjL2FwcC9hcHAubW9kdWxlLm5nZmFjdG9yeS50cyIsInZlcnNpb24iOjMsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIm5nOi8vL1VzZXJzL2dpcmljL1Byb2plY3RzL25nMi1ib290c3RyYXAvYXBwVUkvc3JjL2FwcC9hcHAubW9kdWxlLnRzIl0sInNvdXJjZXNDb250ZW50IjpbIiAiXSwibWFwcGluZ3MiOiJBQUFBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OzsifQ==
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL1VzZXJzL2dpcmljL1Byb2plY3RzL3Jpc2stYXNzZXNzbWVudC90cnVuay91aS9zcmMvYXBwL2FwcC5tb2R1bGUubmdmYWN0b3J5LnRzIiwidmVyc2lvbiI6Mywic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmc6Ly8vVXNlcnMvZ2lyaWMvUHJvamVjdHMvcmlzay1hc3Nlc3NtZW50L3RydW5rL3VpL3NyYy9hcHAvYXBwLm1vZHVsZS50cyJdLCJzb3VyY2VzQ29udGVudCI6WyIgIl0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OzsifQ==

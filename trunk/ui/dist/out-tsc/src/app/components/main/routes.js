@@ -9,8 +9,8 @@ var routes = [
         component: component_1.MainComponent,
         children: [
             {
-                path: 'about',
-                loadChildren: '../about/index#AboutModule',
+                path: '',
+                loadChildren: '../risk-map/index#RiskMapModule',
                 canActivate: [shared_1.AuthGuard]
             }
         ]

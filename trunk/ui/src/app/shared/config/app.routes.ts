@@ -2,12 +2,12 @@ import { NgModule, ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
+    // {
+    //     path: '', 
+    //     loadChildren: './components/authentication/index#AuthenticationModule'
+    // },
     {
-        path: '', 
-        loadChildren: './components/authentication/index#AuthenticationModule'
-    },
-    {
-        path: 'app',
+        path: '',
         loadChildren: './components/main/index#MainModule'
     }
 ];

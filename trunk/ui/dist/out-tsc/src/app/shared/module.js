@@ -10,13 +10,14 @@ var router_1 = require("@angular/router");
 // import { TitleComponent } from '../title.component';
 var services_1 = require("./services");
 var components_1 = require("./components");
+var d3_ng2_service_1 = require("d3-ng2-service");
 var SharedModule = (function () {
     function SharedModule() {
     }
     SharedModule.forRoot = function () {
         return {
             ngModule: SharedModule,
-            providers: [services_1.HttpService, services_1.ToasterInjectableService, services_1.SessionService, services_1.AuthenticationService, services_1.AuthGuard]
+            providers: [services_1.HttpService, services_1.ToasterInjectableService, services_1.SessionService, services_1.AuthenticationService, services_1.AuthGuard, d3_ng2_service_1.D3Service]
         };
     };
     return SharedModule;

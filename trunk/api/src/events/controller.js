@@ -6,12 +6,10 @@ var utility = require('../common/utility');
 var controller = {};
 
 controller.getEvents = function(req, res, next) {
-    var threat = req.params.threat;
+    var obj = req.body;
+    obj.deletedOn = null;
 
-    var promise = Model.find({
-        deletedOn: null,
-        threat: threat
-    }).exec();
+    var promise = Model.find(obj).exec();
 
     promise.then(function(resp) {
         res.status(200).json({

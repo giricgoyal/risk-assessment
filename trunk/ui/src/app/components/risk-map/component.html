@@ -1,0 +1,6 @@
+<div class="d-flex flex-row">
+    <sidebar (magnitudeUpdate)="magnitudeUpdateFn($event)" (riskSubriskUpdate)="riskSubriskUpdateFn($event)" (metricUpdate)="metricUpdateFn($event)" [magnitudeList]="magnitudeList"></sidebar>
+    <div id="riskMapContainer" class="risk-map-container" #riskMapContainer>
+        <div leaflet style="height: inherit;" [leafletOptions]="options" (leafletMapReady)="onMapReady($event)"></div>
+    </div>
+</div>

@@ -13,11 +13,10 @@ import * as import3 from '@angular/forms';
 import * as import4 from '@angular/http';
 import * as import5 from '@angular/router';
 import * as import6 from '../../../../../../src/app/shared/module';
-import * as import7 from '../../../../../../src/app/components/sidebar/index';
-import * as import8 from '../../../../../../src/app/components/header/index';
-import * as import9 from './component.ngfactory';
-import * as import10 from '../../../../../../src/app/components/main/component';
-import * as import11 from '../../../../../../src/app/shared/services/auth.guard.service';
+import * as import7 from '../../../../../../src/app/components/header/index';
+import * as import8 from './component.ngfactory';
+import * as import9 from '../../../../../../src/app/components/main/component';
+import * as import10 from '../../../../../../src/app/shared/services/auth.guard.service';
 class MainModuleInjector extends import0.ɵNgModuleInjector<import1.MainModule> {
   _CommonModule_0:import2.CommonModule;
   _ɵba_1:import3.ɵba;
@@ -25,52 +24,51 @@ class MainModuleInjector extends import0.ɵNgModuleInjector<import1.MainModule> 
   _HttpModule_3:import4.HttpModule;
   _RouterModule_4:import5.RouterModule;
   _SharedModule_5:import6.SharedModule;
-  _AppSidebarModule_6:import7.AppSidebarModule;
-  _AppHeaderModule_7:import8.AppHeaderModule;
-  _MainModule_8:import1.MainModule;
-  __NgLocalization_9:import2.NgLocaleLocalization;
-  __ɵi_10:import3.ɵi;
-  __BrowserXhr_11:import4.BrowserXhr;
-  __ResponseOptions_12:import4.BaseResponseOptions;
-  __XSRFStrategy_13:any;
-  __XHRBackend_14:import4.XHRBackend;
-  __RequestOptions_15:import4.BaseRequestOptions;
-  __Http_16:any;
-  _ROUTES_17:any[];
+  _AppHeaderModule_6:import7.AppHeaderModule;
+  _MainModule_7:import1.MainModule;
+  __NgLocalization_8:import2.NgLocaleLocalization;
+  __ɵi_9:import3.ɵi;
+  __BrowserXhr_10:import4.BrowserXhr;
+  __ResponseOptions_11:import4.BaseResponseOptions;
+  __XSRFStrategy_12:any;
+  __XHRBackend_13:import4.XHRBackend;
+  __RequestOptions_14:import4.BaseRequestOptions;
+  __Http_15:any;
+  _ROUTES_16:any[];
   constructor(parent:import0.Injector) {
-    super(parent,[import9.MainComponentNgFactory],([] as any[]));
+    super(parent,[import8.MainComponentNgFactory],([] as any[]));
   }
-  get _NgLocalization_9():import2.NgLocaleLocalization {
-    if ((this.__NgLocalization_9 == null)) { (this.__NgLocalization_9 = new import2.NgLocaleLocalization(this.parent.get(import0.LOCALE_ID))); }
-    return this.__NgLocalization_9;
+  get _NgLocalization_8():import2.NgLocaleLocalization {
+    if ((this.__NgLocalization_8 == null)) { (this.__NgLocalization_8 = new import2.NgLocaleLocalization(this.parent.get(import0.LOCALE_ID))); }
+    return this.__NgLocalization_8;
   }
-  get _ɵi_10():import3.ɵi {
-    if ((this.__ɵi_10 == null)) { (this.__ɵi_10 = new import3.ɵi()); }
-    return this.__ɵi_10;
+  get _ɵi_9():import3.ɵi {
+    if ((this.__ɵi_9 == null)) { (this.__ɵi_9 = new import3.ɵi()); }
+    return this.__ɵi_9;
   }
-  get _BrowserXhr_11():import4.BrowserXhr {
-    if ((this.__BrowserXhr_11 == null)) { (this.__BrowserXhr_11 = new import4.BrowserXhr()); }
-    return this.__BrowserXhr_11;
+  get _BrowserXhr_10():import4.BrowserXhr {
+    if ((this.__BrowserXhr_10 == null)) { (this.__BrowserXhr_10 = new import4.BrowserXhr()); }
+    return this.__BrowserXhr_10;
   }
-  get _ResponseOptions_12():import4.BaseResponseOptions {
-    if ((this.__ResponseOptions_12 == null)) { (this.__ResponseOptions_12 = new import4.BaseResponseOptions()); }
-    return this.__ResponseOptions_12;
+  get _ResponseOptions_11():import4.BaseResponseOptions {
+    if ((this.__ResponseOptions_11 == null)) { (this.__ResponseOptions_11 = new import4.BaseResponseOptions()); }
+    return this.__ResponseOptions_11;
   }
-  get _XSRFStrategy_13():any {
-    if ((this.__XSRFStrategy_13 == null)) { (this.__XSRFStrategy_13 = import4.ɵb()); }
-    return this.__XSRFStrategy_13;
+  get _XSRFStrategy_12():any {
+    if ((this.__XSRFStrategy_12 == null)) { (this.__XSRFStrategy_12 = import4.ɵb()); }
+    return this.__XSRFStrategy_12;
   }
-  get _XHRBackend_14():import4.XHRBackend {
-    if ((this.__XHRBackend_14 == null)) { (this.__XHRBackend_14 = new import4.XHRBackend(this._BrowserXhr_11,this._ResponseOptions_12,this._XSRFStrategy_13)); }
-    return this.__XHRBackend_14;
+  get _XHRBackend_13():import4.XHRBackend {
+    if ((this.__XHRBackend_13 == null)) { (this.__XHRBackend_13 = new import4.XHRBackend(this._BrowserXhr_10,this._ResponseOptions_11,this._XSRFStrategy_12)); }
+    return this.__XHRBackend_13;
   }
-  get _RequestOptions_15():import4.BaseRequestOptions {
-    if ((this.__RequestOptions_15 == null)) { (this.__RequestOptions_15 = new import4.BaseRequestOptions()); }
-    return this.__RequestOptions_15;
+  get _RequestOptions_14():import4.BaseRequestOptions {
+    if ((this.__RequestOptions_14 == null)) { (this.__RequestOptions_14 = new import4.BaseRequestOptions()); }
+    return this.__RequestOptions_14;
   }
-  get _Http_16():any {
-    if ((this.__Http_16 == null)) { (this.__Http_16 = import4.ɵc(this._XHRBackend_14,this._RequestOptions_15)); }
-    return this.__Http_16;
+  get _Http_15():any {
+    if ((this.__Http_15 == null)) { (this.__Http_15 = import4.ɵc(this._XHRBackend_13,this._RequestOptions_14)); }
+    return this.__Http_15;
   }
   createInternal():import1.MainModule {
     this._CommonModule_0 = new import2.CommonModule();
@@ -79,21 +77,20 @@ class MainModuleInjector extends import0.ɵNgModuleInjector<import1.MainModule> 
     this._HttpModule_3 = new import4.HttpModule();
     this._RouterModule_4 = new import5.RouterModule(this.parent.get(import5.ɵa,(null as any)),this.parent.get(import5.Router,(null as any)));
     this._SharedModule_5 = new import6.SharedModule();
-    this._AppSidebarModule_6 = new import7.AppSidebarModule();
-    this._AppHeaderModule_7 = new import8.AppHeaderModule();
-    this._MainModule_8 = new import1.MainModule();
-        this._ROUTES_17 = [[{
+    this._AppHeaderModule_6 = new import7.AppHeaderModule();
+    this._MainModule_7 = new import1.MainModule();
+        this._ROUTES_16 = [[{
           path: '',
-          component: import10.MainComponent,
+          component: import9.MainComponent,
             children: [{
-              path: 'about',
-              loadChildren: '../about/index#AboutModule',
-              canActivate: [import11.AuthGuard]
+              path: '',
+              loadChildren: '../risk-map/index#RiskMapModule',
+              canActivate: [import10.AuthGuard]
             }
           ]
         }
     ]];
-    return this._MainModule_8;
+    return this._MainModule_7;
   }
   getInternal(token:any,notFoundResult:any):any {
     if ((token === import2.CommonModule)) { return this._CommonModule_0; }
@@ -102,22 +99,21 @@ class MainModuleInjector extends import0.ɵNgModuleInjector<import1.MainModule> 
     if ((token === import4.HttpModule)) { return this._HttpModule_3; }
     if ((token === import5.RouterModule)) { return this._RouterModule_4; }
     if ((token === import6.SharedModule)) { return this._SharedModule_5; }
-    if ((token === import7.AppSidebarModule)) { return this._AppSidebarModule_6; }
-    if ((token === import8.AppHeaderModule)) { return this._AppHeaderModule_7; }
-    if ((token === import1.MainModule)) { return this._MainModule_8; }
-    if ((token === import2.NgLocalization)) { return this._NgLocalization_9; }
-    if ((token === import3.ɵi)) { return this._ɵi_10; }
-    if ((token === import4.BrowserXhr)) { return this._BrowserXhr_11; }
-    if ((token === import4.ResponseOptions)) { return this._ResponseOptions_12; }
-    if ((token === import4.XSRFStrategy)) { return this._XSRFStrategy_13; }
-    if ((token === import4.XHRBackend)) { return this._XHRBackend_14; }
-    if ((token === import4.RequestOptions)) { return this._RequestOptions_15; }
-    if ((token === import4.Http)) { return this._Http_16; }
-    if ((token === import5.ROUTES)) { return this._ROUTES_17; }
+    if ((token === import7.AppHeaderModule)) { return this._AppHeaderModule_6; }
+    if ((token === import1.MainModule)) { return this._MainModule_7; }
+    if ((token === import2.NgLocalization)) { return this._NgLocalization_8; }
+    if ((token === import3.ɵi)) { return this._ɵi_9; }
+    if ((token === import4.BrowserXhr)) { return this._BrowserXhr_10; }
+    if ((token === import4.ResponseOptions)) { return this._ResponseOptions_11; }
+    if ((token === import4.XSRFStrategy)) { return this._XSRFStrategy_12; }
+    if ((token === import4.XHRBackend)) { return this._XHRBackend_13; }
+    if ((token === import4.RequestOptions)) { return this._RequestOptions_14; }
+    if ((token === import4.Http)) { return this._Http_15; }
+    if ((token === import5.ROUTES)) { return this._ROUTES_16; }
     return notFoundResult;
   }
   destroyInternal():void {
   }
 }
 export const MainModuleNgFactory:import0.NgModuleFactory<import1.MainModule> = new import0.NgModuleFactory<any>(MainModuleInjector,import1.MainModule);
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL1VzZXJzL2dpcmljL1Byb2plY3RzL25nMi1ib290c3RyYXAvYXBwVUkvc3JjL2FwcC9jb21wb25lbnRzL21haW4vaW5kZXgubmdmYWN0b3J5LnRzIiwidmVyc2lvbiI6Mywic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmc6Ly8vVXNlcnMvZ2lyaWMvUHJvamVjdHMvbmcyLWJvb3RzdHJhcC9hcHBVSS9zcmMvYXBwL2NvbXBvbmVudHMvbWFpbi9pbmRleC50cyJdLCJzb3VyY2VzQ29udGVudCI6WyIgIl0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OzsifQ==
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL1VzZXJzL2dpcmljL1Byb2plY3RzL3Jpc2stYXNzZXNzbWVudC90cnVuay91aS9zcmMvYXBwL2NvbXBvbmVudHMvbWFpbi9pbmRleC5uZ2ZhY3RvcnkudHMiLCJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJuZzovLy9Vc2Vycy9naXJpYy9Qcm9qZWN0cy9yaXNrLWFzc2Vzc21lbnQvdHJ1bmsvdWkvc3JjL2FwcC9jb21wb25lbnRzL21haW4vaW5kZXgudHMiXSwic291cmNlc0NvbnRlbnQiOlsiICJdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OzsifQ==

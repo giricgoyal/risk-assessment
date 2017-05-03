@@ -9,11 +9,12 @@ var AuthGuard = (function () {
         this.router = router;
     }
     AuthGuard.prototype.canActivate = function () {
-        if (!this.auth.isAuthenticated()) {
-            this.router.navigate(['']);
-            return false;
-        }
         return true;
+        // if (!this.auth.isAuthenticated()) {
+        //     this.router.navigate(['']);
+        //     return false;
+        // }
+        // return true;
     };
     return AuthGuard;
 }());

@@ -9,10 +9,8 @@
 import * as import0 from './component.scss.shim.ngstyle';
 import * as import1 from '@angular/core';
 import * as import2 from '../../../../../../src/app/components/header/component';
-import * as import3 from '../sidebar/component.ngfactory';
-import * as import4 from '../../../../../../src/app/components/sidebar/component';
-import * as import5 from '../../../../../../src/app/shared/services/session.service';
-import * as import6 from '../../../../../../src/app/shared/services/auth.service';
+import * as import3 from '../../../../../../src/app/shared/services/session.service';
+import * as import4 from '../../../../../../src/app/shared/services/auth.service';
 const styles_AppHeaderComponent:any[] = [import0.styles];
 export const RenderType_AppHeaderComponent:import1.RendererType2 = import1.ɵcrt({
   encapsulation: 0,
@@ -22,99 +20,25 @@ export const RenderType_AppHeaderComponent:import1.RendererType2 = import1.ɵcrt
 );
 export function View_AppHeaderComponent_0(l:any):import1.ɵViewDefinition {
   return import1.ɵvid(0,[
-      (l()(),import1.ɵeld(0,(null as any),(null as any),24,'header',[[
-        'class',
-        'fix-sidebar'
-      ]
-    ],(null as any),(null as any),(null as any),(null as any),(null as any))),
+    (l()(),import1.ɵeld(0,(null as any),(null as any),11,'header',([] as any[]),(null as any),(null as any),(null as any),(null as any),(null as any))),
     (l()(),import1.ɵted((null as any),['\n    '])),
-      (l()(),import1.ɵeld(0,(null as any),(null as any),18,'nav',[[
+      (l()(),import1.ɵeld(0,(null as any),(null as any),7,'nav',[[
         'class',
         'navbar navbar-light  bg-primary d-flex align-items-center justify-content-center flex-wrap'
       ]
     ],(null as any),(null as any),(null as any),(null as any),(null as any))),
     (l()(),import1.ɵted((null as any),['\n        '])),
-      (l()(),import1.ɵeld(0,(null as any),(null as any),13,'div',[[
+      (l()(),import1.ɵeld(0,(null as any),(null as any),2,'div',[[
         'class',
         'container align-items-center'
       ]
     ],(null as any),(null as any),(null as any),(null as any),(null as any))),
-    (l()(),import1.ɵted((null as any),['\n            '])),
-      (l()(),import1.ɵeld(0,(null as any),(null as any),1,'a',[[
-        'class',
-        'pull-left text-white'
-      ]
-      ],(null as any),[[
-        (null as any),
-        'click'
-      ]
-    ],(v,en,$event) => {
-      var ad:boolean = true;
-      var co:import2.AppHeaderComponent = v.component;
-      if (('click' === en)) {
-        const pd_0:any = ((<any>co.toggleSidebar()) !== false);
-        ad = (pd_0 && ad);
-      }
-      return ad;
-    },(null as any),(null as any))),
-      (l()(),import1.ɵeld(0,(null as any),(null as any),0,'i',[[
-        'class',
-        'fa fa-bars fa-2x'
-      ]
-    ],(null as any),(null as any),(null as any),(null as any),(null as any))),
-    (l()(),import1.ɵted((null as any),['\n            '])),
-    (l()(),import1.ɵeld(0,(null as any),(null as any),1,'a',[
-      [
-        'class',
-        'navbar-brand'
-      ]
-      ,
-      [
-        'ng-bind',
-        '::$ctrl.appName | lowercase'
-      ]
-      ,
-      [
-        'ng-click',
-        '$ctrl.text()'
-      ]
-
-    ]
-    ,(null as any),(null as any),(null as any),(null as any),(null as any))),
-    (l()(),import1.ɵted((null as any),['\n            '])),
-    (l()(),import1.ɵted((null as any),['\n            '])),
-      (l()(),import1.ɵeld(0,(null as any),(null as any),4,'span',[[
-        'class',
-        'pull-right text-white'
-      ]
-    ],(null as any),(null as any),(null as any),(null as any),(null as any))),
-    (l()(),import1.ɵted((null as any),['\n            '])),
-      (l()(),import1.ɵeld(0,(null as any),(null as any),1,'a',[[
-        'class',
-        'text-white'
-      ]
-      ],(null as any),[[
-        (null as any),
-        'click'
-      ]
-    ],(v,en,$event) => {
-      var ad:boolean = true;
-      var co:import2.AppHeaderComponent = v.component;
-      if (('click' === en)) {
-        const pd_0:any = ((<any>co.logout()) !== false);
-        ad = (pd_0 && ad);
-      }
-      return ad;
-    },(null as any),(null as any))),
-    (l()(),import1.ɵted((null as any),['Logout'])),
     (l()(),import1.ɵted((null as any),['\n            '])),
     (l()(),import1.ɵted((null as any),['\n        '])),
     (l()(),import1.ɵted((null as any),['\n        '])),
     (l()(),import1.ɵeld(0,(null as any),(null as any),0,'div',([] as any[]),(null as any),(null as any),(null as any),(null as any),(null as any))),
     (l()(),import1.ɵted((null as any),['\n    '])),
     (l()(),import1.ɵted((null as any),['\n    '])),
-    (l()(),import1.ɵeld(0,(null as any),(null as any),1,'sidebar',([] as any[]),(null as any),(null as any),(null as any),import3.View_AppSidebarComponent_0,import3.RenderType_AppSidebarComponent)),
-    import1.ɵdid(24576,(null as any),0,import4.AppSidebarComponent,([] as any[]),(null as any),(null as any)),
     (l()(),import1.ɵted((null as any),['\n']))
   ]
   ,(null as any),(null as any));
@@ -123,12 +47,12 @@ function View_AppHeaderComponent_Host_0(l:any):import1.ɵViewDefinition {
   return import1.ɵvid(0,[
     (l()(),import1.ɵeld(0,(null as any),(null as any),1,'app-header',([] as any[]),(null as any),(null as any),(null as any),View_AppHeaderComponent_0,RenderType_AppHeaderComponent)),
     import1.ɵdid(24576,(null as any),0,import2.AppHeaderComponent,[
-      import5.SessionService,
-      import6.AuthenticationService
+      import3.SessionService,
+      import4.AuthenticationService
     ]
     ,(null as any),(null as any))
   ]
   ,(null as any),(null as any));
 }
 export const AppHeaderComponentNgFactory:import1.ComponentFactory<import2.AppHeaderComponent> = import1.ɵccf('app-header',import2.AppHeaderComponent,View_AppHeaderComponent_Host_0,{},{},([] as any[]));
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL1VzZXJzL2dpcmljL1Byb2plY3RzL25nMi1ib290c3RyYXAvYXBwVUkvc3JjL2FwcC9jb21wb25lbnRzL2hlYWRlci9jb21wb25lbnQubmdmYWN0b3J5LnRzIiwidmVyc2lvbiI6Mywic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmc6Ly8vVXNlcnMvZ2lyaWMvUHJvamVjdHMvbmcyLWJvb3RzdHJhcC9hcHBVSS9zcmMvYXBwL2NvbXBvbmVudHMvaGVhZGVyL2NvbXBvbmVudC50cyIsIm5nOi8vL1VzZXJzL2dpcmljL1Byb2plY3RzL25nMi1ib290c3RyYXAvYXBwVUkvc3JjL2FwcC9jb21wb25lbnRzL2hlYWRlci9jb21wb25lbnQuaHRtbCIsIm5nOi8vL1VzZXJzL2dpcmljL1Byb2plY3RzL25nMi1ib290c3RyYXAvYXBwVUkvc3JjL2FwcC9jb21wb25lbnRzL2hlYWRlci9jb21wb25lbnQudHMuQXBwSGVhZGVyQ29tcG9uZW50X0hvc3QuaHRtbCJdLCJzb3VyY2VzQ29udGVudCI6WyIgIiwiPGhlYWRlciBjbGFzcz1cImZpeC1zaWRlYmFyXCI+XG4gICAgPG5hdiBjbGFzcz1cIm5hdmJhciBuYXZiYXItbGlnaHQgIGJnLXByaW1hcnkgZC1mbGV4IGFsaWduLWl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNvbnRlbnQtY2VudGVyIGZsZXgtd3JhcFwiPlxuICAgICAgICA8ZGl2IGNsYXNzPVwiY29udGFpbmVyIGFsaWduLWl0ZW1zLWNlbnRlclwiPlxuICAgICAgICAgICAgPGEgY2xhc3M9XCJwdWxsLWxlZnQgdGV4dC13aGl0ZVwiIChjbGljayk9XCJ0b2dnbGVTaWRlYmFyKClcIj48aSBjbGFzcz1cImZhIGZhLWJhcnMgZmEtMnhcIj48L2k+PC9hPlxuICAgICAgICAgICAgPGEgY2xhc3M9XCJuYXZiYXItYnJhbmRcIiBuZy1jbGljaz1cIiRjdHJsLnRleHQoKVwiIG5nLWJpbmQ9XCI6OiRjdHJsLmFwcE5hbWUgfCBsb3dlcmNhc2VcIj5cbiAgICAgICAgICAgIDwvYT5cbiAgICAgICAgICAgIDxzcGFuIGNsYXNzPVwicHVsbC1yaWdodCB0ZXh0LXdoaXRlXCI+XG4gICAgICAgICAgICA8YSBjbGFzcz1cInRleHQtd2hpdGVcIiAoY2xpY2spPVwibG9nb3V0KClcIj5Mb2dvdXQ8L2E+XG4gICAgICAgICAgICA8L3NwYW4+XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8ZGl2PjwvZGl2PlxuICAgIDwvbmF2PlxuICAgIDxzaWRlYmFyPjwvc2lkZWJhcj5cbjwvaGVhZGVyPiIsIjxhcHAtaGVhZGVyPjwvYXBwLWhlYWRlcj4iXSwibWFwcGluZ3MiOiJBQUFBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7TUNBQTtRQUFBO1FBQUE7TUFBQTtJQUFBO0lBQTRCO01BQ3hCO1FBQUE7UUFBQTtNQUFBO0lBQUE7SUFBd0c7TUFDcEc7UUFBQTtRQUFBO01BQUE7SUFBQTtJQUEwQztNQUN0QztRQUFBO1FBQUE7TUFBQTtNQUFBO1FBQUE7UUFBQTtNQUFBO0lBQUE7TUFBQTtNQUFBO01BQWdDO1FBQUE7UUFBQTtNQUFBO01BQWhDO0lBQUE7TUFBMEQ7UUFBQTtRQUFBO01BQUE7SUFBQTtJQUFvQztJQUM5RjtNQUFBO1FBQUE7UUFBQTtNQUFBOztNQUFBO1FBQUE7UUFBQTtNQUFBOztNQUFBO1FBQUE7UUFBQTtNQUFBOztJQUFBO0tBQUE7SUFBc0Y7SUFDbEY7TUFDSjtRQUFBO1FBQUE7TUFBQTtJQUFBO0lBQW9DO01BQ3BDO1FBQUE7UUFBQTtNQUFBO01BQUE7UUFBQTtRQUFBO01BQUE7SUFBQTtNQUFBO01BQUE7TUFBc0I7UUFBQTtRQUFBO01BQUE7TUFBdEI7SUFBQTtJQUF5QztJQUFVO0lBQzVDO0lBQ0w7SUFDTjtJQUFXO0lBQ1Q7SUFDTjtnQkFBQTtJQUFtQjs7Ozs7O0lDWnZCO2dCQUFBOzs7SUFBQTtLQUFBOzs7OyJ9
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL1VzZXJzL2dpcmljL1Byb2plY3RzL3Jpc2stYXNzZXNzbWVudC90cnVuay91aS9zcmMvYXBwL2NvbXBvbmVudHMvaGVhZGVyL2NvbXBvbmVudC5uZ2ZhY3RvcnkudHMiLCJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJuZzovLy9Vc2Vycy9naXJpYy9Qcm9qZWN0cy9yaXNrLWFzc2Vzc21lbnQvdHJ1bmsvdWkvc3JjL2FwcC9jb21wb25lbnRzL2hlYWRlci9jb21wb25lbnQudHMiLCJuZzovLy9Vc2Vycy9naXJpYy9Qcm9qZWN0cy9yaXNrLWFzc2Vzc21lbnQvdHJ1bmsvdWkvc3JjL2FwcC9jb21wb25lbnRzL2hlYWRlci9jb21wb25lbnQuaHRtbCIsIm5nOi8vL1VzZXJzL2dpcmljL1Byb2plY3RzL3Jpc2stYXNzZXNzbWVudC90cnVuay91aS9zcmMvYXBwL2NvbXBvbmVudHMvaGVhZGVyL2NvbXBvbmVudC50cy5BcHBIZWFkZXJDb21wb25lbnRfSG9zdC5odG1sIl0sInNvdXJjZXNDb250ZW50IjpbIiAiLCI8aGVhZGVyPlxuICAgIDxuYXYgY2xhc3M9XCJuYXZiYXIgbmF2YmFyLWxpZ2h0ICBiZy1wcmltYXJ5IGQtZmxleCBhbGlnbi1pdGVtcy1jZW50ZXIganVzdGlmeS1jb250ZW50LWNlbnRlciBmbGV4LXdyYXBcIj5cbiAgICAgICAgPGRpdiBjbGFzcz1cImNvbnRhaW5lciBhbGlnbi1pdGVtcy1jZW50ZXJcIj5cbiAgICAgICAgICAgIDwhLS08YSBjbGFzcz1cInB1bGwtbGVmdCB0ZXh0LXdoaXRlXCIgKGNsaWNrKT1cInRvZ2dsZVNpZGViYXIoKVwiPjxpIGNsYXNzPVwiZmEgZmEtYmFycyBmYS0yeFwiPjwvaT48L2E+XG4gICAgICAgICAgICA8YSBjbGFzcz1cIm5hdmJhci1icmFuZFwiIG5nLWNsaWNrPVwiJGN0cmwudGV4dCgpXCIgbmctYmluZD1cIjo6JGN0cmwuYXBwTmFtZSB8IGxvd2VyY2FzZVwiPlxuICAgICAgICAgICAgPC9hPlxuICAgICAgICAgICAgPHNwYW4gY2xhc3M9XCJwdWxsLXJpZ2h0IHRleHQtd2hpdGVcIj5cbiAgICAgICAgICAgIDxhIGNsYXNzPVwidGV4dC13aGl0ZVwiIChjbGljayk9XCJsb2dvdXQoKVwiPkxvZ291dDwvYT5cbiAgICAgICAgICAgIDwvc3Bhbj4tLT5cbiAgICAgICAgPC9kaXY+XG4gICAgICAgIDxkaXY+PC9kaXY+XG4gICAgPC9uYXY+XG4gICAgPCEtLTxzaWRlYmFyPjwvc2lkZWJhcj4tLT5cbjwvaGVhZGVyPiIsIjxhcHAtaGVhZGVyPjwvYXBwLWhlYWRlcj4iXSwibWFwcGluZ3MiOiJBQUFBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0lDQUE7SUFBUTtNQUNKO1FBQUE7UUFBQTtNQUFBO0lBQUE7SUFBd0c7TUFDcEc7UUFBQTtRQUFBO01BQUE7SUFBQTtJQUEwQztJQU01QjtJQUNSO0lBQ047SUFBVztJQUNUO0lBQ29COzs7Ozs7SUNaOUI7Z0JBQUE7OztJQUFBO0tBQUE7Ozs7In0=

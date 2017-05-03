@@ -10,6 +10,7 @@ import { RouterModule } from '@angular/router';
 
 import { HttpService, ToasterInjectableService, SessionService, AuthenticationService, AuthGuard } from './services';
 import { AppLoaderComponent, NameInitialsComponent } from './components';
+import { D3Service } from 'd3-ng2-service';
 
 @NgModule({
   imports: [
@@ -42,7 +43,7 @@ export class SharedModule {
   static forRoot(): ModuleWithProviders {
     return {
       ngModule: SharedModule,
-      providers: [ HttpService, ToasterInjectableService, SessionService, AuthenticationService, AuthGuard ]
+      providers: [ HttpService, ToasterInjectableService, SessionService, AuthenticationService, AuthGuard, D3Service ]
     }
   }
 }
